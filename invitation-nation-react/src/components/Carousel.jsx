@@ -21,7 +21,6 @@ const Carousel = () => {
   }
 
   addAnimation();
-
   return (
     <section id="logo-carousel-section">
       <div class="nimbus-container">

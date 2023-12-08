@@ -43,6 +43,7 @@ html {
   src: url("fonts/Poppins-Regular.ttf");
 } */
 
+html,
 body {
   font-family: "DM Sans", sans-serif;
   /* scroll-behavior: smooth; */
