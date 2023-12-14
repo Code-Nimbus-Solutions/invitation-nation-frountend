@@ -10,7 +10,9 @@ RUN apt upgrade -y
 
 RUN apt install npm -y
 
-RUN npm install -g serve@11.3.2
+RUN npm install -g http-server -y
+
+#RUN npm install -g serve@11.3.2
 
 COPY build /home/ango
 
@@ -19,4 +21,6 @@ EXPOSE 8080
 
 # Default command to start Nginx when the container starts
 # CMD ["nginx", "-g", "daemon off;"]
-ENTRYPOINT serve -s build -l 8080
+# ENTRYPOINT serve -s build -p 8080 --listen 0.0.0.0
+ENTRYPOINT http-server -p 8080 -a 0.0.0.0
+
