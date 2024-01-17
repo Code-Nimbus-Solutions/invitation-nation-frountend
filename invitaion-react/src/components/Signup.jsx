@@ -65,8 +65,7 @@ export function Signup() {
         <button className="signupbutton">Next</button>
         <Link to="/" style={{ textDecoration: "none" }}><h1 className="haveacc">Have an Account? Login</h1></Link>
       </div>
-      <h1>{signinputs.Firstname}</h1>
-      <h1>{signinputs.Phno}</h1>
+      
      
     </form>
   );
