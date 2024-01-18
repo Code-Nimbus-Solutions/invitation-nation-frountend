@@ -1,0 +1,125 @@
+{
+  "hash": "704366bd",
+  "browserHash": "eefe58b3",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "d509c169",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "30b7b80a",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "f9351c15",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "1c420102",
+      "needsInterop": false
+    },
+    "@mui/material/TextField": {
+      "src": "../../node_modules/@mui/material/TextField/index.js",
+      "file": "@mui_material_TextField.js",
+      "fileHash": "327a07e5",
+      "needsInterop": false
+    },
+    "@mui/material/Box": {
+      "src": "../../node_modules/@mui/material/Box/index.js",
+      "file": "@mui_material_Box.js",
+      "fileHash": "e871f59c",
+      "needsInterop": false
+    },
+    "@mui/system": {
+      "src": "../../node_modules/@mui/system/esm/index.js",
+      "file": "@mui_system.js",
+      "fileHash": "70d5de0c",
+      "needsInterop": false
+    },
+    "@mui/base/Tabs": {
+      "src": "../../node_modules/@mui/base/Tabs/index.js",
+      "file": "@mui_base_Tabs.js",
+      "fileHash": "1624daae",
+      "needsInterop": false
+    },
+    "@mui/base/TabsList": {
+      "src": "../../node_modules/@mui/base/TabsList/index.js",
+      "file": "@mui_base_TabsList.js",
+      "fileHash": "8f161142",
+      "needsInterop": false
+    },
+    "@mui/base/TabPanel": {
+      "src": "../../node_modules/@mui/base/TabPanel/index.js",
+      "file": "@mui_base_TabPanel.js",
+      "fileHash": "6c691654",
+      "needsInterop": false
+    },
+    "@mui/base/Button": {
+      "src": "../../node_modules/@mui/base/Button/index.js",
+      "file": "@mui_base_Button.js",
+      "fileHash": "558e7870",
+      "needsInterop": false
+    },
+    "@mui/base/Tab": {
+      "src": "../../node_modules/@mui/base/Tab/index.js",
+      "file": "@mui_base_Tab.js",
+      "fileHash": "b498824a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-LM2QDEYC": {
+      "file": "chunk-LM2QDEYC.js"
+    },
+    "chunk-FN5ZZ4E5": {
+      "file": "chunk-FN5ZZ4E5.js"
+    },
+    "chunk-KMRTALQX": {
+      "file": "chunk-KMRTALQX.js"
+    },
+    "chunk-NA34MVXA": {
+      "file": "chunk-NA34MVXA.js"
+    },
+    "chunk-L3KKMIWX": {
+      "file": "chunk-L3KKMIWX.js"
+    },
+    "chunk-LRUAMMCE": {
+      "file": "chunk-LRUAMMCE.js"
+    },
+    "chunk-Q4LNWEAQ": {
+      "file": "chunk-Q4LNWEAQ.js"
+    },
+    "chunk-X6XVNPPU": {
+      "file": "chunk-X6XVNPPU.js"
+    },
+    "chunk-LQD3CMR4": {
+      "file": "chunk-LQD3CMR4.js"
+    },
+    "chunk-LZMUEID7": {
+      "file": "chunk-LZMUEID7.js"
+    },
+    "chunk-GLXB6OKM": {
+      "file": "chunk-GLXB6OKM.js"
+    },
+    "chunk-VWTFQWJK": {
+      "file": "chunk-VWTFQWJK.js"
+    },
+    "chunk-YRGXRI36": {
+      "file": "chunk-YRGXRI36.js"
+    },
+    "chunk-FAXPGAJV": {
+      "file": "chunk-FAXPGAJV.js"
+    },
+    "chunk-BHZAVQOK": {
+      "file": "chunk-BHZAVQOK.js"
+    }
+  }
+}

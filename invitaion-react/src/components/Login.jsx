@@ -75,6 +75,7 @@ export function Login(){
             <span className="keeplogin">Keep me signed in</span>
             <button className="login">Login</button>
             <Link to="/signup" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account</h2></Link>
+            {/* <Link to="/signup2" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account2</h2></Link> */}
          
            
            

@@ -88,7 +88,7 @@
   border-radius: 4px;
   background: var(--Bright-purp, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #8D4EA5);
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 39.5%;
 
   flex-shrink: 0;
@@ -137,7 +137,7 @@
   line-height: normal;
   justify-content: center;
   position: relative;
-  top: 450%;
+  top: 350%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -200,6 +200,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.loginform{
+
 }
 
 
