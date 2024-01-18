@@ -37,7 +37,7 @@ export function Login(){
 
 
         </div>
-        <h3 className="forgotpass">Forgot Password ?</h3>
+       <Link to='/forgotpass'><h3 className="forgotpass">Forgot Password ?</h3></Link> 
         <div className="loginput">
         <Box
       component="form"

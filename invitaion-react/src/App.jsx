@@ -2,22 +2,32 @@ import './App.css'
 import { Login } from './components/Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Signup } from './components/Signup';
-import {Signup2} from './components/signup2';
+import { Homepage } from './components/Homepage';
+import { Templetes } from './components/template';
+import { Wishes } from './components/wishes';
+import { Gallery } from './components/gallery';
+import { Help } from './components/help';
+import { Setting } from './components/settings';
+import { Forgotpassword } from './components/Forgotpasswrd';
 
 function App() {
   return (
     <div className="app">
-      <Router>
+      
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          {/* <Route path="/signup2" element={<Signup2 />} /> */}
-          {/* Add more routes for additional steps if needed */}
+          <Route path="/dash" element={<Homepage />} />
+          <Route path='/templetes' element={<Templetes />} />
+          <Route path='/wishes' element={<Wishes />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/help' element={<Help />} />
+          <Route path='/setting' element={<Setting />} />
+          <Route path='/forgotpass' element={<Forgotpassword/>}/>
         </Routes>
-      </Router>
+     
     </div>
   )
 }
 
-export default App
- 
+export default App;

@@ -114,6 +114,8 @@ export function Signup2() {
         <Link to="/" style={{ textDecoration: "none" }}>
           <h1 className="haveacc">Have an Account? Login</h1>
         </Link>
+
+        <Link to='/dash'>dash</Link>
       </div>
     </form>
   );
