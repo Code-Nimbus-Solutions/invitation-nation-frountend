@@ -61,7 +61,7 @@ export function Login() {
               <label htmlFor="" className="form-label">
                 Password
               </label>
-              <Link to="/ForgotPassword">
+              <Link to="/Overview">
                 <button className="form-forgot-password">
                   Forgot Password?
                 </button>

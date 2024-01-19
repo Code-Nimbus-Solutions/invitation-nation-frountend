@@ -10,4 +10,11 @@ html {
 
 body {
   font-family: "Inter";
+  box-sizing: border-box;
+}
+
+@media (height<=900px) {
+  html {
+    font-size: 55%;
+  }
 }
