@@ -13,8 +13,8 @@ body {
   box-sizing: border-box;
 }
 
-@media (height<=900px) {
+/* @media (height<=900px) {
   html {
     font-size: 55%;
   }
-}
+} */
