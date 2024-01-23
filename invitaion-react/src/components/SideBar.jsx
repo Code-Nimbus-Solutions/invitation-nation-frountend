@@ -20,7 +20,7 @@ const SideBar = () => {
           <h3>Invitation-nation</h3>
           <ul className="side-bar-nav-list">
             <li>
-              <Link to="" className="side-bar-nav-element active">
+              <Link to="/Overview" className="side-bar-nav-element active">
                 <img src={Overview} alt="" />
                 <span>Overview</span>
               </Link>
@@ -50,7 +50,7 @@ const SideBar = () => {
               </Link>
             </li>
             <li>
-              <Link to="" className="side-bar-nav-element">
+              <Link to="/Templates" className="side-bar-nav-element">
                 <img src={Templates} alt="" />
                 <span>Templates</span>
               </Link>
