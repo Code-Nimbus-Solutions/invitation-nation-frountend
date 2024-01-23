@@ -1,13 +1,25 @@
+import { Fourcard } from "./Fourcardbttn";
+import ImgMediaCard from "./MUI components/Card";
 import { Sidebar } from "./sidebar";
 
+
 export function Templetes(){
+    
     return(  
-    <><div className="templatemain" >
+    <>
+    <div className="templatemain" >
         <div className="tempcont">
-            <Sidebar />
-            <h1 className="temp" style={{justifyContent:"center"}}>template............................</h1>
+            
+           
+           <div className="mainttemptxt">
+                
+            <ImgMediaCard className="imgcard"/>
         </div>
-             
+               </div>
+               <div className="fourcrd">
+                 <Fourcard/>
+               </div>
+              
         </div></>
     )
 }

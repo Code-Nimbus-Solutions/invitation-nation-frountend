@@ -1,4 +1,7 @@
 import './App.css'
+import'./index.css'
+import'/src/components/dash.css'
+
 import { Login } from './components/Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Signup } from './components/Signup';

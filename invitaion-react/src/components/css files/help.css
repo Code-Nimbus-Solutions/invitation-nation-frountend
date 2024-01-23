@@ -1,0 +1,165 @@
+.helpcont {
+    color: var(--Dark-purp, #36004E);
+
+    /* Display Text/Small/Display Small (Bold) */
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+    /* 123.529% */
+    letter-spacing: -0.68px;
+    flex-direction: column;
+    margin-left: 2rem;
+
+
+}
+
+
+.helpmn {
+    display: flex;
+    position: sticky;
+}
+
+.helpcinttab {
+    color: aliceblue;
+    padding: 2rem;
+    margin: 0rem;
+    color: var(--White, #FFF);
+
+    /* Heading md/Bold */
+    font-family: Urbanist;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    /* 122.222% */
+    letter-spacing: -1.08px;
+    position: sticky;
+
+}
+
+.helptab {
+    background-color: #36004E;
+    margin: 0;
+
+
+
+    height: 5rem;
+
+    width: 76.3rem;
+    margin-left: -2rem;
+    display: flex;
+}
+
+.helpchp {
+    padding: 5rem;
+    color: #FFF;
+}
+
+.imgfls {
+    float: right;
+
+}
+
+.srchhlp {
+    width: 3rem;
+    height: 3rem;
+    padding-left: 2rem;
+    float: right;
+    position: relative;
+    left: 42rem;
+    padding-top: 1rem;
+    cursor: pointer;
+
+}
+
+.srchhlp2 {
+    width: 3rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    left: 43rem;
+
+
+
+}
+
+.msgarea {
+    border: none;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    resize: none;
+    border: none;
+    position: relative;
+    float: inline-start;
+    overflow: hidden;
+
+}
+
+.msgarea:focus {
+    border: none;
+    outline: none;
+
+}
+
+.msgcon {
+    width: 40rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    padding-left: 0.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 38rem;
+    left: 40%;
+    border: 1px black solid;
+    border-radius: 1rem;
+    position: sticky;
+
+}
+
+.payment {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    left: 2.3rem;
+    top: 0.2rem;
+    float: right;
+}
+
+.payment2 {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    left: 3rem;
+    top: 0.2rem;
+
+    float: right;
+}
+
+.msgoutput {
+    background-color: #C874E8;
+    width: 30%;
+    max-width: 100%;
+    /* Ensure it can take up the full width if needed */
+    height: auto;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 0.3rem;
+    padding: 0.01rem;
+    padding-left: 1rem;
+    margin: 2rem;
+    margin-left: auto;
+    /* Push the container to the right */
+    white-space: pre-line;
+    word-break: break-word;
+    /* Allow breaking within words */
+}
+
+
+.msgoutcont {}

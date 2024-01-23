@@ -1,0 +1,101 @@
+.settingmn {
+    display: flex;
+
+}
+
+.settingcont {
+    height: 8rem;
+    gap: 0.5rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    left: 18.7rem;
+    width: 100rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.settingcont h1 {
+    color: var(--Dark-purp, #36004E);
+
+    /* Display Text/Small/Display Small (Bold) */
+    font-family: "DM Sans";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.529% */
+    letter-spacing: -0.68px;
+    margin-top: 0.3rem;
+}
+
+.andrie {
+    padding: auto;
+    color: var(--Bright-purp, #8D4EA5);
+
+    /* Body Text/Small/Body Medium (Bold) */
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: -0.28px;
+
+}
+
+.setavtar {
+    position: fixed;
+    top: 0;
+    /* Adjust as needed */
+    right: 1rem;
+    /* Adjust as needed */
+
+    /* Optional: Add margin for spacing */
+    margin-top: 3rem;
+}
+
+.settingimgcont {
+    width: 100rem;
+    height: 13rem;
+    background-color: rgb(253, 255, 255);
+    border: 1px black solid;
+    position: relative;
+    top: 10rem;
+    z-index: -1;
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.settingtxt {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #36004E;
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+ 
+    text-align: center;
+}
+.settingtxt:hover{
+    background-color: #8D4EA5;
+}
+.aavtarstng{
+    background-color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    border: 1px black solid;
+}

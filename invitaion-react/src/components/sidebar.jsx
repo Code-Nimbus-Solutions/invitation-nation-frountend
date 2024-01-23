@@ -4,7 +4,7 @@ import Sidebardata from "./sidebardata";
 export function Sidebar() {
   return (
     <div className="route">
-      <div className="sidebarmain">
+      <div className="sidebarmain sticky">
         <div className="iconcon">
           <img src="/src/assets/image 5 1 1 (1).svg" alt="" className="iconsd" />
           <h1 className="invit">Invitation Icon</h1>
