@@ -1,6 +1,7 @@
 import { Sidebar } from "./sidebar";
 import './css files/setting.css'
 import BadgeAvatars from "./avatar";
+import VerticalTabs from "./MUI components/Verticaltabs";
 
 export function Setting(){
     return(
@@ -17,6 +18,10 @@ export function Setting(){
        <div className="settingimgcont">
         <img src="/src/assets/react.svg" alt="" className="aavtarstng" />
             <p className="settingtxt">Dwane Jhonson</p>
+        </div>
+
+        <div className="tabssection">
+            <VerticalTabs/>
         </div>
         
            

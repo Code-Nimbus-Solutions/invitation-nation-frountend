@@ -1,0 +1,148 @@
+.logcont {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.avtar {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background: url(<path-to-image>);
+    justify-content: center;
+}
+
+.logtxt {
+    color: #430060;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 14px;
+
+}
+
+.loginput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+
+    /* Optionally set a height for vertical centering */
+}
+
+.logmailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loglab {
+    text-align: left;
+    margin-right: 16px;
+    /* Adjust the margin as needed for spacing */
+}
+
+.logmail {
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+
+}
+
+.mailip {
+    border: #430060 2px solid;
+}
+
+.Logpassword {
+    margin-top: 20px;
+
+}
+
+.forgotpass {
+    color: var(--Bright-purp, #8D4EA5);
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    width: 162px;
+    flex-shrink: 0;
+    justify-content: center;
+    position: absolute;
+    left: 53%;
+    top: 40%;
+}
+
+.login {
+    display: flex;
+    width: 400px;
+    height: 48px;
+    padding: 16px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Bright-purp, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #8D4EA5);
+    position: absolute;
+    top: 65%;
+    left: 38.3%;
+
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Semibold 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+
+.keepsign {
+    position: relative;
+    top: 100%;
+    left: -10%;
+
+}
+
+.keeplogin {
+    position: relative;
+    top: 87%;
+    left: -5%;
+    color: var(--Black, #191D23);
+
+    /* Light 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+
+
+}
+
+.createscc {
+    color: var(--Dark-purp, #36004E);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    position: relative;
+    top: 350%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 10%;
+    cursor: pointer;
+    text-decoration: none;
+
+}

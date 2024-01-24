@@ -1,0 +1,233 @@
+.vertical-tabs-container {
+    display: flex;
+    position: absolute;
+    top: 28rem;
+    left: 20rem;
+   
+
+
+}
+
+.vertical-tabs {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 15rem;
+
+}
+
+.vertical-tab {
+    cursor: pointer;
+    padding: 8px;
+    color: var(--Dark-purp, #36004E);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin: 0.5rem;
+
+
+}
+
+.vertical-tab:hover {
+    background-color: #ffffff;
+}
+
+.vertical-tab.active {
+    background-color: #d5d5d5;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
+
+.tab-content {
+    flex: 1;
+    display: flex;
+
+
+    color: var(--Dark-purp, #36004E);
+
+    font-family: Inter;
+    font-size: 01rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    border-bottom: #36004E 2px solid;
+    height: 4rem;
+    margin-left: 2rem;
+    width: 50rem;
+
+    /* 100% */
+}
+
+.oh {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-right: 0.5rem;
+
+}
+
+.contentcont {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.firstnameacc {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(161, 161, 161, 0.544);
+    padding: 0.2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.contentcont label {
+    margin-top: 1rem;
+}
+
+.contentcont input {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(161, 161, 161, 0.544);
+    padding: 0.2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+
+}
+
+.mailacc {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(161, 161, 161, 0.544);
+    padding: 0.2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+}
+
+.updateprfl {
+    background-color: #36004E;
+    color: #ffffff;
+    margin-top: 3rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Bold 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    text-transform: capitalize;
+}
+
+.imguploadsec {
+    position: absolute;
+    left: 50rem;
+    top: 10rem;
+    background-color: #ffffff;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px dashed rgba(81, 79, 79, 0.766);
+    overflow: hidden;
+    cursor: pointer;
+
+
+
+}
+
+.imageupld {
+    width: 20rem;
+    height: 20rem;
+    
+    
+  
+    border-radius: 50%;
+    background-color:transparent;
+    position: relative;
+    top: -6rem;
+    color: transparent;
+ 
+   cursor: pointer;
+   z-index: 1;
+   
+    
+  
+    
+  
+}
+
+.textupload {
+    width: 5rem;
+    padding-left: 2.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: -17rem;
+    gap: 1rem;
+    line-height: 1rem;
+    color: rgb(107, 107, 107);
+    position: relative;
+
+}
+
+.savefile {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 3.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+
+    gap: 1rem;
+    line-height: 1rem;
+    color: rgb(107, 107, 107);
+
+    position: relative;
+    top: -18rem;
+}
+.fullcontup{
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+ 
+}
+.pfp{
+    float: right;
+    position: relative;
+    left: 46rem;
+    top: 6rem;
+}
+.avtarset{
+    position: relative;
+    left:48.5rem;
+    top: 18rem;
+    padding: 2rem;
+   
+
+}
+.pfpavtar{
+    padding: 0.7rem;
+}
+.pfpavtar2{
+    padding: 0.7rem;
+}

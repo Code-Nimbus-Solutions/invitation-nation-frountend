@@ -1,0 +1,15 @@
+template_id[{
+    "id":"wed001"
+    {
+        "Pagename":"Homepage"
+        {
+            "Section":"Herosection"
+            {
+                "Thumbnailimg":"img",
+                "img":"text",
+            
+            }
+        }
+    }
+
+}]
