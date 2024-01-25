@@ -1,15 +1,30 @@
-template_id[{
-    "id":"wed001"
+{
+  "template_id": [
     {
-        "Pagename":"Homepage"
-        {
-            "Section":"Herosection"
-            {
-                "Thumbnailimg":"img",
-                "img":"text",
-            
-            }
-        }
+      "Hero Section": {
+        "Event Date": "date",
+        "Location": "text",
+        "Map Link": "text",
+        "Img": "/src/assets/Frame 127.svg"
+      }
+    },
+    {
+      "Bride Section": {
+        "Bride Image": "file",
+        "First Name": "text",
+        "Last Name": "text",
+        "Daughter Of": "text",
+        "Bride Quote": "text",
+        "Img": "/src/assets/Frame 159.svg"
+      }
+    },
+    {
+      "Groom Section": {
+        "Son Of": "text",
+        "Groom Quote": "text",
+        "Upload Groom Image": "file",
+        "Img": "/src/assets/Frame 160.svg"
+      }
     }
-
-}]
+  ]
+}

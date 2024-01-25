@@ -3,6 +3,7 @@
     position: absolute;
     top: 28rem;
     left: 20rem;
+    z-index: 10;
    
 
 
@@ -14,6 +15,7 @@
     background-color: #ffffff;
     padding: 10px;
     width: 15rem;
+    z-index: 10;
 
 }
 
@@ -58,6 +60,7 @@
     height: 4rem;
     margin-left: 2rem;
     width: 50rem;
+    z-index: 10;
 
     /* 100% */
 }
@@ -207,20 +210,21 @@
 }
 .fullcontup{
     position: absolute;
-    top: 0rem;
+    top: -15rem;
     left: 2rem;
- 
+   background-color: #36004E;
+  
 }
 .pfp{
     float: right;
     position: relative;
-    left: 46rem;
-    top: 6rem;
+    left: 16rem;
+    top: -28rem;
 }
 .avtarset{
     position: relative;
-    left:48.5rem;
-    top: 18rem;
+    left:30rem;
+    top: -12rem;
     padding: 2rem;
    
 

@@ -31,7 +31,7 @@ export function Login(){
         <>
         <form action="submit" className="log" onSubmit={handleSubmit}>
         <div className="logcont">
-            <img src="/src/assets/image-removebg-preview (2) 1.svg" alt="logo" className="avtar" />
+            <img src="/src/assets/image-removebg-preview (2) 1.svg" alt="logo" className="avatar" />
             <h1 className="logtxt">
                 Invitation Nation
             </h1>
@@ -71,9 +71,11 @@ export function Login(){
             </div>
             </Box>
             
-           
-            <input type="checkbox"className="keepsign" name="keepSignedIn" checked={inputValues.keepSignedIn} onChange={handleInputChange} />
+           <div className="kkpcont">
+             <input type="checkbox"className="keepsign" name="keepSignedIn" checked={inputValues.keepSignedIn} onChange={handleInputChange} />
             <span className="keeplogin">Keep me signed in</span>
+           </div>
+           
             <button className="login">Login</button>
             <Link to="/signup" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account</h2></Link>
             {/* <Link to="/signup2" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account2</h2></Link> */}

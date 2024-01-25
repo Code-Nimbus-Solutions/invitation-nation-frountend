@@ -13,6 +13,8 @@ import { Help } from './components/help';
 import { Setting } from './components/settings';
 import { Forgotpassword } from './components/Forgotpasswrd';
 
+import { MainCustom } from './components/MianCustom';
+
 function App() {
   return (
     <div className="app">
@@ -27,6 +29,7 @@ function App() {
           <Route path='/help' element={<Help />} />
           <Route path='/setting' element={<Setting />} />
           <Route path='/forgotpass' element={<Forgotpassword/>}/>
+          <Route path='/Coustomise' element={<MainCustom/>}/>
         </Routes>
      
     </div>

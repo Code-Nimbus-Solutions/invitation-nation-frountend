@@ -4,12 +4,14 @@
     margin-top: 10%;
 }
 
-.avtar {
+.avatar {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
     background: url(<path-to-image>);
-    justify-content: center;
+    position: relative;
+    left: 0rem;
+    
 }
 
 .logtxt {
@@ -123,6 +125,9 @@
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+    width: 20rem;
+    left: -6rem;
+
     /* 150% */
 
 
@@ -145,4 +150,12 @@
     cursor: pointer;
     text-decoration: none;
 
+}
+.kkpcont{
+    display: flex;
+    position: relative;
+    top: 7rem;
+    left: -3.5rem;
+ 
+    
 }

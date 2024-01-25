@@ -1,0 +1,102 @@
+.tabcontent {
+    float: right;
+    font-family: 'DM sans';
+
+}
+
+.tabparts {
+    font-family: 'DM sans';
+    color: var(--White, #000000);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    border: 1px black solid;
+    margin-top: 0.5rem;
+    width: 7rem;
+
+}
+
+.tabparts::after {
+    background-color: aqua;
+}
+
+.tabshorisec {
+    border-bottom: 1px rgba(211, 211, 211, 0.588) solid;
+    padding: 1rem;
+
+    width: 97%;
+    z-index: 1;
+    background-color: white
+}
+
+.back {
+    color: var(--Dark-purp, #36004E);
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-right: 1px black solid;
+    padding-right:2rem ;
+    padding-left: 2rem;
+    display: flex;
+}
+.savensub{
+    position: fixed;
+    float: right;
+    left: -2rem;
+    top: -40rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #36004E;
+    color: white;
+    font-family: 'DM sans';
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+.progress{
+position: absolute;
+left: 65rem;
+top: 6rem;
+height: 0.5rem;
+gap: 1rem;
+display: flex;
+
+   
+
+}
+.percent{
+    position: relative;
+    top: 1rem;
+    left: -1rem;
+}
+.snsmain{
+    margin-top: 2.5rem ;
+    margin-left: 1rem;
+    
+}
+.sns{
+    width: 10rem;
+    height: 2rem;
+    font-family: 'DM sans';
+    font-weight: 700;
+    color: white;
+    background-color: #36004E;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+

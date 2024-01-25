@@ -9,6 +9,7 @@ import { styled } from '@mui/material/styles';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import { Button, Card, CardActions, CardMedia } from '@mui/material';
 import { Templetes } from '../template';
+import { Link } from 'react-router-dom';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -105,7 +106,7 @@ export default function BasicTabs() {
           </Box>
           <CardActions>
             <div className="buttn">
-              <Button
+             <Link to='/Coustomise'> <Button
                 size="small"
                 sx={{
                   width: "50%",
@@ -122,7 +123,7 @@ export default function BasicTabs() {
                 }}
               >
                 Upload media
-              </Button>
+              </Button></Link>
             </div>
           </CardActions>
         </Card>

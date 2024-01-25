@@ -96,7 +96,7 @@ export function AccountDetails() {
       </div>
       
       </div>
-      <div className="fullcontup">
+     
         <p className='pfp'>Your profile picture</p>
         
          <div className="imguploadsec">
@@ -112,7 +112,7 @@ export function AccountDetails() {
         <img src="/src/assets/Rectangle 7003.svg" alt="" className="pfpavtar" />
         <img src="/src/assets/Rectangle 7004.svg" alt="" className="pfpavtar2" />
       </div>
-        </div> 
+        
      
     </div>
   );
