@@ -1,0 +1,134 @@
+.chat-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.main-area-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main-area {
+  width: 100%;
+  display: flex;
+  padding: 2.4rem;
+  box-sizing: border-box;
+}
+
+.chat-bar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.chat-bar-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.search-bar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 3.4rem 0px rgba(255, 115, 29, 0.1);
+}
+
+.search-bar-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.search-bar-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar-box input {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.chat-bar-filter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.chat-bar-filter li {
+  color: var(--Secondary, #525256);
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.chat-bar-filter li.active {
+  color: var(--Bright-purp, #8d4ea5);
+  border-bottom: 1px solid #8d4ea5;
+}
+
+.chat-bar-users-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chat-bar-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-bar-user-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.chat-bar-user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-bar-msg-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.user-prev-msg {
+  color: #a19791;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.chat-bar-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff731d;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+}
+
+.notification-no {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}

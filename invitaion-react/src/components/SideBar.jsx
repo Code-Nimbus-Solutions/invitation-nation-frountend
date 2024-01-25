@@ -44,7 +44,7 @@ const SideBar = () => {
               </Link>
             </li>
             <li>
-              <Link to="" className="side-bar-nav-element">
+              <Link to="/Chat" className="side-bar-nav-element">
                 <img src={Chat} alt="" />
                 <span>Chat</span>
               </Link>
