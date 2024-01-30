@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import './css files/Signup.css'
-export function Signup2() {
+export function Signup2({ signinputs, onNextClick })  {
   const [signinputs2, setsigninput2] = useState({
     Email: '',
     Password: '',
@@ -54,7 +54,10 @@ export function Signup2() {
     if (signinputs2.Password !== signinputs2.Cpassword) {
       alert("Passwords do not match");
     } else {
-      console.log('submitted', signinputs2);
+      // Combine data from Signup and Signup2
+      const combinedData = { ...signinputs, ...signinputs2 };
+      console.log('Combined Data:', combinedData);
+      onNextClick(combinedData); // Pass combined data back to Signup
     }
   };
 

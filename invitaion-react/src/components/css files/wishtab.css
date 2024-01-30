@@ -1,0 +1,188 @@
+.tab-container {
+  margin-top: 15rem;
+  display: flex;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: auto;
+  height: 0.6rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+
+  font-family: 'DM sans';
+
+}
+
+.tab.active {
+  background-color: #36004E;
+  border-bottom: none;
+  color: white;
+  font-family: 'DM sans';
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.mainwishcont {
+  margin-left: 20rem;
+  font-family: 'DM sans';
+}
+
+.wishshow {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.025) 1px 1px 1px 1px;
+  background-color: rgb(62, 161, 62);
+}
+
+.wishhide {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.025) 1px 1px 1px 1px;
+  background-color: rgb(189, 55, 55);
+
+}
+
+.wishnb {
+  display: flex;
+
+}
+
+.wishbadge {
+  border: 1px solid black;
+  height: 1rem;
+  border-radius: 1.5rem;
+  width: auto;
+  margin: 1rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+
+}
+
+.tab-content {
+  font-family: 'DM sans';
+
+}
+
+.activetabwish {
+  gap: 0;
+  line-height: 1.5;
+}
+
+.maincaardcont {
+  position: relative;
+  top: 10rem;
+  z-index: -1;
+  background-color: #DFD9E2;
+  width: 68.5625rem;
+  height: 12.75rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  line-height: 0.5rem;
+  
+}
+
+.maincaardcont h1 {
+  color: var(--Dark-purp, #36004E);
+  font-family: "DM Sans";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.5rem;
+}
+
+.pcontainer {
+  display: flex;
+  flex: 1;
+
+}
+
+.pcontainer p {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-right: 1rem;
+
+  border-radius: 1rem;
+  border: 2px solid var(--Bright-purp, #ffffff);
+
+
+
+}
+.pcontainer:focus{
+  border: 1px solid purple;
+}
+
+.card1 {
+  width: 21.1875rem;
+  height: 5.5rem;
+  flex-shrink: 0;
+
+  border-radius: 1rem;
+  background: var(--White, #FFF);
+  margin-right: .9375rem;
+}
+.card2 {
+  width: 21.1875rem;
+  height: 5.5rem;
+  flex-shrink: 0;
+
+  border-radius: 1rem;
+  background: var(--White, #FFF);
+  margin-right: .9375rem;
+}
+.card3 {
+  width: 21.1875rem;
+  height: 5.5rem;
+  flex-shrink: 0;
+
+  border-radius: 1rem;
+  background: var(--White, #FFF);
+}
+
+.numbwish {
+  color: var(--Dark-purp, #36004E);
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.5rem;
+  padding-left: 1.0625rem;
+  padding-top: .625rem;
+}
+
+.wrdwish {
+  padding-left: 1.0625rem;
+  color: var(--Bright-purp, #8D4EA5);
+
+  font-family: "DM Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.2;
+}
+.minicardcont{
+  display: flex;
+  margin-top: 1.25rem;
+
+  
+}

@@ -2,7 +2,7 @@ import { Sidebar } from "./sidebar";
 import './css files/help.css';
 import BadgeAvatars from "./avatar";
 import { Stack, Chip } from "@mui/material";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Message({ item }) {
   return (
@@ -34,6 +34,22 @@ export function Help() {
       handleSendMsg();
     }
   };
+  const handleClearChat = () => {
+    setInputMsg([]); // Clear all chat messages
+  }
+
+  // Load chat messages from localStorage on component mount
+  useEffect(() => {
+    const storedMessages = localStorage.getItem('chatMessages');
+    if (storedMessages) {
+      setInputMsg(JSON.parse(storedMessages));
+    }
+  }, []);
+
+  // Save chat messages to localStorage whenever inputmsg changes
+  useEffect(() => {
+    localStorage.setItem('chatMessages', JSON.stringify(inputmsg));
+  }, [inputmsg]);
 
   return (
     <div className="helpmn">
@@ -47,8 +63,9 @@ export function Help() {
             <Chip label="WET3456" sx={{ color: "grey", backgroundColor: "#E5EAD7" }} />
           </Stack>
           <div className="imgfls">
-            <img src="/src/assets/Frame 3907.svg" alt="" className="srchhlp" />
+            <img src="/src/assets/Frame 3907.svg" alt="" className="srchhlp" onClick={handleClearChat}/>
             <img src="/src/assets/Frame 3988.svg" alt="" className="srchhlp2" />
+           
           </div>
         </div>
 

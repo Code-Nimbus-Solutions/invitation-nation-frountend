@@ -1,32 +1,58 @@
-
 import TextField from '@mui/material/TextField';
-import Box from '@mui/material/Box';
+import { Box, IconButton, InputAdornment } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import './css files/Login.css'
+import './css files/Login.css';
+import Logindata from './Data/Logindata.json';
+import { useNavigate } from 'react-router-dom';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
-export function Login(){
-    const[inputValues,setinput]=useState({email: '',
+export function Login() { 
+
+  const navigate = useNavigate();
+  const [passwordVisiblelogin, setPasswordVisiblelogin] = useState(false); // Fix: Use useNavigate instead of history
+  const [inputValues, setinput] = useState({
+    email: '',
     password: '',
-    keepSignedIn: false})
-    const handleInputChange = (event) => {
-        const { name, value, type, checked } = event.target;
+    keepSignedIn: false,
+  });
+ 
+  const handleInputChange = (event) => {
+    const { name, value, type, checked } = event.target;
+    const inputValue = type === 'checkbox' ? checked : value;
 
-        // For checkbox, use the 'checked' property instead of 'value'
-        const inputValue = type === 'checkbox' ? checked : value;
-    
-        setinput({
-          ...inputValues,
-          [name]: inputValue,
-        });
-      };
-      const handleSubmit = (event) => {
-        event.preventDefault();
-        // Here you can submit the form data to your backend or perform any other actions
-        console.log('Form data submitted:', inputValues);
-      }
+    setinput({
+      ...inputValues,
+      [name]: inputValue,
+    });
+  };
+  const togglePasswordVisibilityLogin = () => {
+    setPasswordVisiblelogin((prevVisible) => !prevVisible);
+  };
 
-    
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const user = Logindata.Login_id.find((u) => u.Email === inputValues.email);
+
+    if (user && user.Password === inputValues.password) {
+      alert('Login successful!');
+      navigate('/dash'); // Fix: Use navigate instead of history.push
+    } else {
+      alert('Invalid credentials. Please try again.');
+    }
+  };
+  const EndadooremetLogin = () => {
+    return (
+      <InputAdornment position="end">
+        <IconButton onClick={togglePasswordVisibilityLogin}>
+          {passwordVisiblelogin ? <VisibilityOffIcon /> : <VisibilityIcon />}
+        </IconButton>
+      </InputAdornment>
+    );
+  };
+
     return(
         <>
         <form action="submit" className="log" onSubmit={handleSubmit}>
@@ -63,6 +89,10 @@ export function Login(){
                  label="Password"
                  placeholder="Password"
                  className='Logpassword'
+                 type={passwordVisiblelogin ?  "password": "text"}
+                 InputProps={{
+                  endAdornment: <EndadooremetLogin/>,
+                }}
                  onChange={handleInputChange}
                  name="password"
                  value={inputValues.password}
@@ -77,7 +107,7 @@ export function Login(){
            </div>
            
             <button className="login">Login</button>
-            <Link to="/signup" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account</h2></Link>
+            <Link to="/signup" className='logincreate'><h2 className="createscc">Create New Account</h2></Link>
             {/* <Link to="/signup2" style={{textDecoration:"none"}}><h2 className="createscc">Create New Account2</h2></Link> */}
          
           

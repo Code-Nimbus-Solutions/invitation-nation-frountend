@@ -1,6 +1,8 @@
-import { Fourcard } from "./Fourcardbttn";
-import ImgMediaCard from "./MUI components/Card";
 import { Sidebar } from "./sidebar";
+import './css files/wish.css'
+import BadgeAvatars from "./avatar";
+import WishTabs from "./MUI components/Wishestabs";
+
 
 
 export function Templetes(){
@@ -8,17 +10,25 @@ export function Templetes(){
     return(  
     <>
     <div className="templatemain" >
-        <div className="tempcont">
-            
-           
-           <div className="mainttemptxt">
-                
-            <ImgMediaCard className="imgcard"/>
+        <div className="wishside">
+            <Sidebar/>
         </div>
-               </div>
-               <div className="fourcrd">
-                 <Fourcard/>
-               </div>
+        <div className="welcomhdng">
+            <p>Hi andrie</p>
+            <h2>Welcom to Invitaion Nation</h2>
+        </div>
+        <div className="wishavtar">
+            <BadgeAvatars/>
+        </div>
+
+        <div className="wishtabs">
+            <WishTabs/>
+        </div>
+   
+                   
+                  
+                  
+          
               
         </div></>
     )

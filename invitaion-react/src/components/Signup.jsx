@@ -3,12 +3,13 @@ import { TextField } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Signup2 } from "./signup2";
-import './css files/Signup.css'
+import './css files/Signup.css';
+
 export function Signup() {
   const [signinputs, setsigninput] = useState({
     Firstname: '',
     Lastname: '',
-    Phno: false,
+    Phno: '',
   });
 
   const [signinputs2, setsigninput2] = useState({
@@ -16,6 +17,8 @@ export function Signup() {
     Password: '',
     Cpassword: '',
   });
+
+  const [combinedData, setCombinedData] = useState(null);
 
   const [showSignup2, setShowSignup2] = useState(false);
 
@@ -36,9 +39,10 @@ export function Signup() {
 
   const handleSignup2Data = (data) => {
     // Combine data from Signup and Signup2
-    console.log("Combined Data:", { ...signinputs, ...data });
+    const combined = { ...signinputs, ...data };
+    console.log("Combined Data:", combined);
+    setCombinedData(combined);
   };
-
   return (
     <div>
       {showSignup2 ? (

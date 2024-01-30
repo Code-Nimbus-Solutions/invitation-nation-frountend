@@ -10,6 +10,7 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 import { Button, Card, CardActions, CardMedia } from '@mui/material';
 import { Templetes } from '../template';
 import { Link } from 'react-router-dom';
+import ImgMediaCard from './Card';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -57,12 +58,19 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 }));
 
 export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(() => {
+    // Retrieve the stored value from localStorage or use a default value
+    return parseInt(localStorage.getItem('tabValue')) || 0;
+  });
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
+  React.useEffect(() => {
+    // Store the current value in localStorage
+    localStorage.setItem('tabValue', value.toString());
+  }, [value]);
   return (
     <Box sx={{ width: '90%', boxSizing: "border-box", marginLeft: "5%" }}>
       <Box sx={{ borderColor: 'divider' }}>
@@ -78,6 +86,9 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <Box sx={{ display: 'flex', flexWrap: 'wrap'  }}>
+        <CustomTabPanel value={value} index={0}>
+          <ImgMediaCard/>
+        </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <Card sx={{ maxWidth: 391, marginLeft: "20px", marginTop: "5%",maxHeight:350 ,flexBasis: "calc(50% -0px)"}}>
             <Typography sx={{margin:"10px"}}>Hero Section</Typography>
