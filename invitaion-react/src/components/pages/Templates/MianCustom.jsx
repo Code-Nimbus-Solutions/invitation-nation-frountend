@@ -1,7 +1,7 @@
-import { Customizsec } from "./Customisesec";
-import HorizontalTabs from "./MUI components/customisehtabs";
-import BadgeAvatars from "./avatar";
-import './css files/custom.css'
+
+import HorizontalTabs from "../../MUI components/customisehtabs";
+import BadgeAvatars from "../../MUI components/avatar";
+import '../../css files/custom.css'
 
 export function MainCustom(){
     return(

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import data from './data.json';
-import './css files/custom.css';
+import data from '../../Data/data.json';
+import '../../css files/custom.css';
 
-export function Customizsec() {
+export function Customizsectab2() {
   const [sections, setSections] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
   const [sectionValues, setSectionValues] = useState({});
@@ -22,8 +22,7 @@ export function Customizsec() {
     setSectionValues((prevValues) => ({
       ...prevValues,
       [field]: value,
-    }))
-   
+    }));
   };
 
   const handleSave = () => {

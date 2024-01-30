@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import { Button, Card, CardActions, CardMedia } from '@mui/material';
-import { Templetes } from '../template';
+import { Templetes } from '../pages/Wishes/template';
 import { Link } from 'react-router-dom';
 import ImgMediaCard from './Card';
 
@@ -85,8 +85,8 @@ export default function BasicTabs() {
           <Tab label="Event Schedule" {...a11yProps(2)} sx={{ backgroundColor: "white", borderRadius: "10px", border: "1px #36004E solid" ,margin:"10px"}}/>
         </Tabs>
       </Box>
-      <Box sx={{ display: 'flex', flexWrap: 'wrap'  }}>
-        <CustomTabPanel value={value} index={0}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap' , }}>
+        <CustomTabPanel value={value} index={0} sx={{width:"50rem"}}>
           <ImgMediaCard/>
         </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
@@ -241,7 +241,7 @@ export default function BasicTabs() {
       </CustomTabPanel>
       </Box>
       <CustomTabPanel value={value} index={0}>
-       <Templetes/>
+      
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three

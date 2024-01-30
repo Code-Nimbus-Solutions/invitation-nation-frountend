@@ -1,7 +1,7 @@
-import { Sidebar } from "./sidebar";
-import './css files/wish.css'
-import BadgeAvatars from "./avatar";
-import WishTabs from "./MUI components/Wishestabs";
+import { Sidebar } from "../../MUI components/sidebar";
+import '../../css files/wish.css'
+import BadgeAvatars from "../../MUI components/avatar";
+import WishTabs from "../../MUI components/Wishestabs";
 
 
 

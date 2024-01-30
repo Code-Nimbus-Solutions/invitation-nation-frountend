@@ -1,7 +1,7 @@
-import { Sidebar } from "./sidebar";
-import './css files/setting.css'
-import BadgeAvatars from "./avatar";
-import VerticalTabs from "./MUI components/Verticaltabs";
+import { Sidebar } from "../../MUI components/sidebar";
+import '../../css files/setting.css'
+import BadgeAvatars from "../../MUI components/avatar";
+import VerticalTabs from "../../MUI components/Verticaltabs";
 
 export function Setting(){
     return(

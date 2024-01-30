@@ -1,10 +1,10 @@
-import BadgeAvatars from './avatar';
-import './dash.css'
-import  { Sidebar } from './sidebar';
+import BadgeAvatars from '../../MUI components/avatar';
+import '../../../components/dash.css'
+import  { Sidebar } from '../../MUI components/sidebar';
 
 
 
-import { Websetup } from "./websetupcrd";
+import { Websetup } from "../../MUI components/websetupcrd";
 
 export function Homepage(){
     return(

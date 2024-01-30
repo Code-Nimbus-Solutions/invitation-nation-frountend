@@ -1,6 +1,6 @@
-import { Sidebar } from "./sidebar";
+import { Sidebar } from "../../MUI components/sidebar";
 
-import BasicTabs from "./MUI components/Tabs";
+import BasicTabs from "../../MUI components/TemplateTabs";
 
 export function Wishes(){
     return(

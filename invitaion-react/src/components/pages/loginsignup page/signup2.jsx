@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import './css files/Signup.css'
+import '../../css files/signup.css'
 export function Signup2({ signinputs, onNextClick })  {
   const [signinputs2, setsigninput2] = useState({
     Email: '',

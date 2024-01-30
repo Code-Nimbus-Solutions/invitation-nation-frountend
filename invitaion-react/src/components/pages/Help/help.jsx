@@ -1,6 +1,6 @@
-import { Sidebar } from "./sidebar";
-import './css files/help.css';
-import BadgeAvatars from "./avatar";
+import { Sidebar } from "../../MUI components/sidebar";
+import '../../css files/help.css';
+import BadgeAvatars from "../../MUI components/avatar";
 import { Stack, Chip } from "@mui/material";
 import { useState, useEffect } from "react";
 

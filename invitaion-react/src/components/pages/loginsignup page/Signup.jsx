@@ -3,7 +3,7 @@ import { TextField } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Signup2 } from "./signup2";
-import './css files/Signup.css';
+import '../../css files/signup.css';
 
 export function Signup() {
   const [signinputs, setsigninput] = useState({

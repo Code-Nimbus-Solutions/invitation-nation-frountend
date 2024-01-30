@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Customizsec } from '../Customisesec';
+import { Customizsec } from '../../components/pages/Templates/Customisesec';
 import '../css files/tabcon.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { LinearProgress } from '@mui/material';
-import { Customizsectab2 } from '../customisesectab2';
+import { Customizsectab2 } from '../../components/pages/Templates/customisesectab2';
 
 function HorizontalTabs() {
   const [activeTab, setActiveTab] = useState(() => {

@@ -1,4 +1,4 @@
-import { Sidebar } from "./sidebar";
+import { Sidebar } from "./MUI components/sidebar";
 
 export function Gallery(){
     return(

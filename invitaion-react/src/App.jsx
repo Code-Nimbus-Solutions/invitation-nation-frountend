@@ -2,25 +2,25 @@ import './App.css'
 import'./index.css'
 import'/src/components/dash.css'
 
-import { Login } from './components/Login'
+import { Login } from './components/pages/loginsignup page/Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Signup } from './components/Signup';
-import { Homepage } from './components/Homepage';
-import { Templetes } from './components/template';
-import { Wishes } from './components/wishes';
+import { Signup } from './components/pages/loginsignup page/Signup';
+import { Homepage } from './components/pages/Dashboard/Homepage';
+import { Templetes } from './components/pages/Wishes/template';
+import { Wishes } from './components/pages/Templates/wishes';
 import { Gallery } from './components/gallery';
-import { Help } from './components/help';
-import { Setting } from './components/settings';
-import { Forgotpassword } from './components/Forgotpasswrd';
+import { Help } from './components/pages/Help/help';
+import { Setting } from './components/pages/Setting/settings';
+import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswrd';
 
-import { MainCustom } from './components/MianCustom';
+import { MainCustom } from './components/pages/Templates/MianCustom';
 
 function App() {
   return (
     <div className="app">
       
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/' element={<Login/>} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dash" element={<Homepage />} />
           <Route path='/templetes' element={<Wishes />} />
