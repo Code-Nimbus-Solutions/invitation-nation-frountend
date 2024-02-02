@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CustomizedProgressBars from "./progress";
 
 
@@ -7,7 +8,7 @@ export function Websetup(){
             <h1 className="crdhd">WebSite Setup</h1>
             <p className="percent">80% completed</p>
             <CustomizedProgressBars/>
-            <button className="custom">Customize Now</button>
+            <Link to='/setting'><button className="custom">Customize Now</button></Link>
             
         </div>
     )

@@ -519,7 +519,12 @@
   margin-top: 10px;
 
 }
-
+.route{
+  position: sticky;
+}
+.mobherodev{
+  display: none ;
+}
 
 @media (max-width: 600px) {
   .log {
@@ -567,6 +572,10 @@
     display: none;
 
   }
+  .mobherodev{
+    display: block;
+    
+  }
 }
 
 @media (max-width: 900px) {
@@ -613,5 +622,8 @@
   .createscc {
     top: 350%;
     left: 20%;
+  }
+  .mobherodev{
+    display: block;
   }
 }

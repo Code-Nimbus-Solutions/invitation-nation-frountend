@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../css files/vtabs.css' // Import your CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AccountDetails } from '../Vtabs files/Accountdetails';
+import { Link } from 'react-router-dom';
 
 
 const VerticalTabs = () => {
@@ -14,12 +15,12 @@ const VerticalTabs = () => {
   return (
     <div className="vertical-tabs-container">
       <div className="vertical-tabs">
-        <div
+        <a href='#activecontent' className="conct" style={{textDecoration:"none",scrollBehavior:"smooth"}}><div
           className={`vertical-tab ${activeTab === 1 ? 'active' : ''}`}
           onClick={() => handleTabClick(1)}
         >
         <img src="/src/assets/Component 2.svg" alt="" className="oh" /> Contact Details 
-        </div>
+        </div></a>
         <div
           className={`vertical-tab ${activeTab === 2 ? 'active' : ''}`}
           onClick={() => handleTabClick(2)}
@@ -31,24 +32,25 @@ const VerticalTabs = () => {
           onClick={() => handleTabClick(3)}
         >
           <img src="/src/assets/Component 2 (2).svg" alt="" className="oh" />Order History
-        </div> <div
+        </div> 
+        <Link to='/help' style={{textDecoration:"none"}}><div
           className={`vertical-tab ${activeTab === 4 ? 'active' : ''}`}
           onClick={() => handleTabClick(4)}
         >
         <img src="/src/assets/Component 2 (3).svg" alt="" className="oh" /> Report An Issue
-        </div>
+        </div></Link>
         <div
           className={`vertical-tab ${activeTab === 5 ? 'active' : ''}`}
           onClick={() => handleTabClick(5)}
         >
          <img src="/src/assets/Component 2 (3).svg" alt="" className="oh" /> FAQ's
         </div>
-        <div
+        <Link to='/help' style={{textDecoration:"none"}}><div
           className={`vertical-tab ${activeTab === 6 ? 'active' : ''}`}
           onClick={() => handleTabClick(6)}
         >
          <img src="/src/assets/Component 2 (4).svg" alt="" className="oh" /> Help and Support
-        </div>
+        </div></Link>
         <div
           className={`vertical-tab ${activeTab === 7 ? 'active' : ''}`}
           onClick={() => handleTabClick(7)}
@@ -57,8 +59,11 @@ const VerticalTabs = () => {
         </div>
         {/* Add more tabs as needed */}
       </div>
+      
 
-      <div className="tab-content">
+     
+      <div className="contenttxt">
+ <div className="tab-content" id='activecontent'>
         {/* Content for Tab 1 */}
         {activeTab === 1 && <AccountDetails/>}
 
@@ -71,8 +76,6 @@ const VerticalTabs = () => {
         {activeTab === 7 && <p>Content for Tab 7 goes here.</p>}
         {/* Add more content sections as needed*/}
       </div>
-      <div className="contenttxt">
-
       </div>
     </div>
   );

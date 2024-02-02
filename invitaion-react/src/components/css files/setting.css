@@ -100,3 +100,16 @@
     border-radius: 50%;
     border: 1px black solid;
 }
+@media(width < 37.5rem){
+    .settingcont{
+        display: none;
+    }
+    .settingimgcont{
+        top: 0;
+    }
+    .settingmn{
+        width: 100%;
+        margin-bottom: 50rem;
+    }
+    
+}

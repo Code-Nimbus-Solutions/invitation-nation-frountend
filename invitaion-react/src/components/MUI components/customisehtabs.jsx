@@ -30,9 +30,14 @@ function HorizontalTabs() {
   return (
     <div className='minidash'>
       <div style={{ display: 'flex' }} className='tabshorisec'>
-        <Link to='/wishes' style={{ textDecoration: "none" }}>
+        <Link to='/templetes' style={{ textDecoration: "none" }}>
           <p className="back"><img src="/src/assets/arrow_back_ios.svg" alt="" className="leftarw" />Back to Dashboard</p>
+          <img src="/src/assets/arrow_back_ios.svg" alt="" className="leftarwmobile" />
+
         </Link>
+        <div className="desktoptab">
+
+        
         {tabData.map((tab, index) => (
           <div
             key={index}
@@ -47,6 +52,20 @@ function HorizontalTabs() {
             {tab.label}
           </div>
         ))}
+      </div></div>
+      <div className="mobiletabs">
+      <select
+            className='slect'
+            value={activeTab} // Set the selected value based on the activeTab state
+            onChange={(e) => handleTabClick(parseInt(e.target.value))}
+          >
+            {tabData.map((tab, index) => (
+              <option key={index} value={index}>
+                {tab.label}
+              </option>
+            ))}
+          </select>
+        
       </div>
 
       <div style={{ marginTop: '20px' }}>
@@ -76,5 +95,6 @@ function HorizontalTabs() {
     </div>
   );
 }
+
 
 export default HorizontalTabs;

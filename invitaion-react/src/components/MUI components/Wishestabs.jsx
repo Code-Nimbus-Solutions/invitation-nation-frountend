@@ -106,8 +106,21 @@ const WishTabs = () => {
           <p className="wrdwish">Hidden Wishes</p>
         </div>
       </div>
-     </div>
+     </div>   
+     <div className="pmobcontainer">
+          <select
+            className="tab-dropdown"
+            value={activeTab}
+            onChange={(e) => handleTabClick(Number(e.target.value))}
+          >
+            <option value={1}>Unread</option>
+            <option value={2}>Hidden</option>
+            <option value={3}>Public</option>
+          </select>
+          {/* ... (rest of the pcontainer content) */}
+        </div>
       <div className="tab-container">
+   
         <div
           className={`tab ${activeTab === 1 ? 'active' : ''}`}
           onClick={() => handleTabClick(1)}
@@ -127,7 +140,9 @@ const WishTabs = () => {
           Public
         </div>
       </div>
-      <div className="tab-content">
+      <div className="wishcontent">
+
+      
         {/* Render content based on activeTab */}
         {activeTab === 1 && (
           <div className='activetabwish'>
@@ -222,7 +237,7 @@ const WishTabs = () => {
             ))}
           </div>
         )}
-      </div>
+     </div>
     </div>
   );
 };

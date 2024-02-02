@@ -8,9 +8,10 @@ import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import { Button, Card, CardActions, CardMedia } from '@mui/material';
-import { Templetes } from '../pages/Wishes/template';
+
 import { Link } from 'react-router-dom';
 import ImgMediaCard from './Card';
+import'../../components/dash.css'
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -73,12 +74,13 @@ export default function BasicTabs() {
   }, [value]);
   return (
     <Box sx={{ width: '90%', boxSizing: "border-box", marginLeft: "5%" }}>
-      <Box sx={{ borderColor: 'divider' }}>
+      <Box sx={{ borderColor: 'divider',margin:"1rem" }} className='Temptab'>
         <Tabs
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-          TabIndicatorProps={{ style: { backgroundColor: 'transparent',color:"purple" } }} // Set background color for active tab
+          TabIndicatorProps={{ style: { backgroundColor: 'transparent',color:"purple" } }} 
+          sx={{ overflowX: 'hidden', scrollbarWidth: 'thin',scrollbarColor:"green", }}// Set background color for active tab
         >
           <Tab label="Home page " {...a11yProps(0)} sx={{ backgroundColor: "white", borderRadius: "10px", border: "1px #36004E solid" ,margin:"10px"}}  />
           <Tab label="About Couple" {...a11yProps(1)} sx={{ backgroundColor: "white", borderRadius: "10px", border: "1px #36004E solid",margin:"10px" }}/>
@@ -89,14 +91,14 @@ export default function BasicTabs() {
         <CustomTabPanel value={value} index={0} sx={{width:"50rem"}}>
           <ImgMediaCard/>
         </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
+      <CustomTabPanel value={value} index={1} className='tempcard1' >
         <Card sx={{ maxWidth: 391, marginLeft: "20px", marginTop: "5%",maxHeight:350 ,flexBasis: "calc(50% -0px)"}}>
             <Typography sx={{margin:"10px"}}>Hero Section</Typography>
           <CardMedia
             component="img"
             alt="green iguana"
             height="200"
-           
+            className='tempcardimg'
             image="/src/assets/react.svg"
             sx={{ objectFit: 'contain',border:"1px #36004E solid",width:"47vh",margin:"12px",borderRadius:"10px"}}
           />
@@ -139,14 +141,14 @@ export default function BasicTabs() {
           </CardActions>
         </Card>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
+      <CustomTabPanel value={value} index={1} className='tempcard2'>
         <Card sx={{ maxWidth: 391, marginLeft: "20px", marginTop: "5%",maxHeight:350 ,flexBasis: "calc(50% -0px)"}}>
             <Typography sx={{margin:"10px"}}>Bride and Groom Section</Typography>
           <CardMedia
             component="img"
             alt="green iguana"
             height="200"
-           
+            className='tempcardimg'
             image="/src/assets/react.svg"
             sx={{ objectFit: 'contain',border:"1px #36004E solid",width:"47vh",margin:"12px",borderRadius:"10px"}}
           />
@@ -189,14 +191,14 @@ export default function BasicTabs() {
           </CardActions>
         </Card>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
+      <CustomTabPanel value={value} index={1} className='tempcard3'>
         <Card sx={{ maxWidth: 391, marginLeft: "20px", marginTop: "5%",maxHeight:350 ,}}>
             <Typography sx={{margin:"10px"}}>Bride and Groom Section</Typography>
           <CardMedia
             component="img"
             alt="green iguana"
             height="200"
-           
+           className='tempcardimg'
             image="/src/assets/react.svg"
             sx={{ objectFit: 'contain',border:"1px #36004E solid",width:"47vh",margin:"12px",borderRadius:"10px"}}
           />

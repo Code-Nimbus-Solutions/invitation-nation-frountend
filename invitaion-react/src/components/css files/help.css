@@ -1,20 +1,16 @@
 .helpcont {
     color: var(--Dark-purp, #36004E);
-
-    /* Display Text/Small/Display Small (Bold) */
+    /* Display Text/Small/Display Small (Bold)*/
     font-family: "DM Sans";
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     line-height: 1.5rem;
-    /* 123.529% */
+    /* 123.529%*/
     letter-spacing: -0.68px;
     flex-direction: column;
     margin-left: 2rem;
-
-
 }
-
 
 .helpmn {
     display: flex;
@@ -26,27 +22,21 @@
     padding: 2rem;
     margin: 0rem;
     color: var(--White, #FFF);
-
-    /* Heading md/Bold */
+    /* Heading md/Bold*/
     font-family: Urbanist;
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1rem;
-    /* 122.222% */
+    /* 122.222%*/
     letter-spacing: -1.08px;
     position: sticky;
-
 }
 
 .helptab {
     background-color: #36004E;
     margin: 0;
-
-
-
     height: 5rem;
-
     width: 76.3rem;
     margin-left: -2rem;
     display: flex;
@@ -59,7 +49,6 @@
 
 .imgfls {
     float: right;
-
 }
 
 .srchhlp {
@@ -71,7 +60,6 @@
     left: 42rem;
     padding-top: 1rem;
     cursor: pointer;
-
 }
 
 .srchhlp2 {
@@ -83,9 +71,6 @@
     float: right;
     position: relative;
     left: 43rem;
-
-
-
 }
 
 .msgarea {
@@ -98,13 +83,12 @@
     position: relative;
     float: inline-start;
     overflow: hidden;
-
+    bottom: 0;
 }
 
 .msgarea:focus {
     border: none;
     outline: none;
-
 }
 
 .msgcon {
@@ -119,9 +103,9 @@
     left: 40%;
     border: 1px black solid;
     border-radius: 1rem;
-    position: sticky;
-
+   
 }
+
 
 .payment {
     width: 3rem;
@@ -138,7 +122,6 @@
     position: relative;
     left: 3rem;
     top: 0.2rem;
-
     float: right;
 }
 
@@ -146,20 +129,178 @@
     background-color: #C874E8;
     width: 30%;
     max-width: 100%;
-    /* Ensure it can take up the full width if needed */
+    /* Ensure it can take up the full width if needed*/
     height: auto;
-    /* Adjust the height as needed */
+    /* Adjust the height as needed*/
     overflow: hidden;
     border-radius: 0.3rem;
     padding: 0.01rem;
     padding-left: 1rem;
     margin: 2rem;
     margin-left: auto;
-    /* Push the container to the right */
+    /* Push the container to the right*/
     white-space: pre-line;
     word-break: break-word;
-    /* Allow breaking within words */
+    /* Allow breaking within words*/
+    ;
+}
+.msgoutcont{
+    margin-bottom: 7rem;
+}
+  
+.dropdown{
+    display: none;
 }
 
 
-.msgoutcont {}
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+    /* Styles for width less than 600px */
+    .msgarea {
+        bottom: 0;
+        position: relative;
+        height: 1.5rem;
+    }
+
+    .msgcon {
+        width: 25rem;
+        margin: 0.2rem;
+        scale: 0.9;
+        position: fixed;
+        height: 2rem;
+        left: 2rem;
+        top: 58rem;
+    }
+
+    .helpcont {
+        width: fit-content;
+    }
+
+    .helptab {
+       width: 480px;
+    }
+
+    .imgfls {
+       display: none;
+    }
+
+    .helpcinttab {
+        display: flex;
+        font-size: medium;
+        width: 7rem;
+    }
+
+    .avtar {
+        display: none;
+    }
+
+    .mobvrsn {
+        display: none;
+    }
+
+    .payment {
+        left: 1rem;
+        top: -0.5rem;
+        scale: 0.6;
+    }
+
+    .payment2 {
+        left: 0.4rem;
+        top: -0.5rem;
+        scale: 0.6;
+    }
+
+    .chipcut {
+        scale: 0.7;
+        position: relative;
+        left: -2rem;
+    }
+
+    .dropdown-container {
+        position: relative;
+        display: flex;
+    }
+
+    .dropdown-btn {
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 5rem;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        cursor: pointer;
+        border-bottom: 1px solid black;
+    }
+
+    .dropdown-content  {
+        cursor: pointer;
+        font-family: 'DM sans';
+        padding: auto;
+        font-weight: bold;
+    }
+    .dropdown{
+        display: block;
+        margin-left: auto;
+    }
+}
+
+/* Media Queries for height */
+@media screen and (max-height: 800px) {
+    .msgcon {
+        position: fixed;
+        top: 55rem;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .msgcon {
+        position: fixed;
+        top: 60rem;
+    }
+}
+@media screen and (max-height: 780px) {
+    .msgcon {
+        position: fixed;
+        top: 47rem;
+        scale: 1.1;
+    }
+    .msgoutcont{
+        margin-bottom: 10rem;
+    }
+}
+@media(height<600px)
+{
+    .msgcon{
+        position: fixed;
+        top: 35rem;
+    }
+}
+@media(height<680px)
+{
+    .msgcon{
+        position: fixed;
+        top: 45rem;
+    }
+}
+@media (min-width: 768px) {
+    .msgcon {
+        position: fixed; /* Change to static for desktop */
+        bottom: 1; /* Reset top for desktop */
+        left: 40%; /* Reset left for desktop */
+        width:40rem; /* Reset width for desktop */
+        margin-bottom: 20rem;
+        top: 38rem; /* Reset margin for desktop */
+    }
+}
+
+/* General Styles (applicable to all screen sizes)*/
+/* Add your existing styles here*/

@@ -1,0 +1,69 @@
+.maincont{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.mobavtar{
+   position: relative;
+   left: 0rem;
+}
+.bottomnav{
+    display: none;
+}
+@media (width < 600px) {
+    .maincard{
+        position: relative;
+        left: 0rem;
+        margin-top: 2rem;
+    }
+    .custom{
+        width: 80%;
+        position: relative;
+        left:1rem;
+    }
+    .bottomnav{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width:100%;
+        
+    }
+    .mobsec{
+        display: none;
+    }
+    .templatemain{
+        display: flex;
+        flex-direction: column;
+        margin: 10rem;
+    }
+    .avtar{
+       right: 1rem;
+       float: right;
+       position: absolute;
+       left: 10rem;
+        
+      }
+      .Temptab{
+       
+        scroll-snap-align:  start ;
+        overflow-x: scroll;
+        size: 2rem;
+      
+       
+        white-space: nowrap;
+        
+       
+      }
+      .tempcard1{
+        position: relative;
+        left: -2rem;
+      }
+      .tempcard2{
+        position: relative;
+        left: -2rem;
+      }
+      .tempcard3{
+        position: relative;
+        left: -2rem;
+      }
+}

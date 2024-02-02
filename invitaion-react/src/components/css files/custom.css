@@ -49,6 +49,19 @@ h2 {
     text-align: center;
     font-weight: 600;
 }
+.mainsection2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'DM sans';
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: #36004e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    
+}
 
 .optionmain {
     padding-top: 3rem;
@@ -174,4 +187,73 @@ padding-top: 2rem;
   width: 65rem;
   height: 30rem;
     object-fit: cover;
+}
+
+@media(width<600px)
+{
+    .customise{
+        width: 0rem;
+        display: flex;
+        flex-direction: column;
+        
+        margin: 1rem;
+    }
+    .mcustommian{
+        width:fit-content;
+      
+    }
+    .mcustomcont{
+       display: none;
+    }
+    .customizecont{
+        width: fit-content;
+    }
+    .selectedimgcustom{
+        width: 28rem;
+        height: 10rem;
+    }
+    .selectedimgcustom2{
+        width: 25rem;
+        height: 10rem;
+    }
+    .imgsec{
+        width:8rem;
+        scale: 0.5;
+        margin-left: 8rem;
+        position: relative;
+        top: -12rem;
+    }
+    .customizecont{
+        left: -5rem;
+        position: relative;
+        top: 2rem;
+        width: 0rem;
+        scale: 0.8;
+       
+       
+    }
+  
+    .hedcustom{
+        left: 0rem;
+        position: relative;
+        top: -5rem;
+       
+        width: 160px;
+    
+        
+
+    }
+    .mainsection2{
+        width: 20rem;
+        position: relative;
+        top: 0rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        background-color: #36004e;
+        color: white;
+        font-family: 'DM sans';
+        text-align: center;
+    }
+    
+    
 }

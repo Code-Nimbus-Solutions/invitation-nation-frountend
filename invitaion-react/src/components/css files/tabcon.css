@@ -99,4 +99,38 @@ display: flex;
     border-radius: 0.4rem;
     cursor: pointer;
 }
+.desktoptab{
+    display: flex;
+}
+.leftarwmobile{
+    display: none;
+}
+.mobiletabs{
+    display: none;
+}
+@media(width < 600px)
+{
+    .minidash{
+        width: 2rem;
+    }
+    .progress{
+        display: none;
+    }
+    .leftarwmobile{
+        display: block;
+    }
+    .back{
+        display: none;
+    }
+    .desktoptab{
+        display: none;
+    }
+    .mobiletabs{
+        display: block;
+        width: 10rem;
+        left: 3rem;
+        position: relative;
+        top: -2.5rem;
+    }
+}
 

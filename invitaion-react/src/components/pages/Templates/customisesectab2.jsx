@@ -36,7 +36,7 @@ export function Customizsectab2() {
 
   return (<><div className="customise">
     {selectedSection && (
-      <div>
+      <div className='selectedimgcustom'>
         <h2 className="hedcustom">{selectedSection}</h2>
 
         {/* Displaying image */}
@@ -65,8 +65,8 @@ export function Customizsectab2() {
 
 
 
-      <div className="customizecont">
-        <select onChange={(e) => handleSectionChange(e.target.value)} className="mainsection">
+      <div >
+        <select onChange={(e) => handleSectionChange(e.target.value)} className="mainsection2" style={{width:"30rem",marginRight:"2rem"}}>
           <option value="" disabled selected>
             Choose a section...
           </option>
@@ -80,8 +80,8 @@ export function Customizsectab2() {
 
 
         {selectedSection && (
-          <div>
-            <h2 className="hedcustom">{selectedSection}</h2>
+          <div className='selectedimgcustom' >
+            
             {sections &&
               sections
                 .find((section) => Object.keys(section)[0] === selectedSection)[selectedSection] &&
@@ -89,7 +89,7 @@ export function Customizsectab2() {
                 sections
                   .find((section) => Object.keys(section)[0] === selectedSection)[selectedSection]
               ).map(([field, fieldType]) => (
-                <div key={field} className="custominputfld">
+                <div key={field} className="custominputfld" style={{width:"32rem"}}>
                   <label>{field}</label>
                   {fieldType === 'file' ? (
                     <input

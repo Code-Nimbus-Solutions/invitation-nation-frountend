@@ -2,6 +2,8 @@ import { Sidebar } from "../../MUI components/sidebar";
 import '../../css files/setting.css'
 import BadgeAvatars from "../../MUI components/avatar";
 import VerticalTabs from "../../MUI components/Verticaltabs";
+import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
+import '../../Mobilecssfiles/mobhero.css'
 
 export function Setting(){
     return(
@@ -25,7 +27,9 @@ export function Setting(){
         </div>
         
            
-
+        <div className="bottomnav" >
+                <LabelBottomNavigation/>
+            </div>
            
             
         </div>

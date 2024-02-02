@@ -53,3 +53,10 @@ body{
 .wishside{
     position: fixed;
 }
+
+@media(width<600px){
+.welcomhdng{
+    display: none;
+}
+
+}

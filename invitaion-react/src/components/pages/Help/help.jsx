@@ -3,7 +3,7 @@ import '../../css files/help.css';
 import BadgeAvatars from "../../MUI components/avatar";
 import { Stack, Chip } from "@mui/material";
 import { useState, useEffect } from "react";
-
+import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 function Message({ item }) {
   return (
     <div className="message">
@@ -16,6 +16,7 @@ function Message({ item }) {
 export function Help() {
   const [inputmsg, setInputMsg] = useState([]);
   const [msgchng, setMsgChange] = useState("");
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const handleMsgChange = (event) => {
     setMsgChange(event.target.value);
@@ -54,24 +55,44 @@ export function Help() {
   return (
     <div className="helpmn">
       <Sidebar />
+      <div className="fixedpos" >
+
+     
       <div className="helpcont">
-        <p className="andrie">Hi, Andrie</p>
+        <div className="mobvrsn">
+          <p className="andrie">Hi, Andrie</p>
         <h1>Welcome to Invitation Nation</h1>
+        </div>
+        
         <div className="helptab">
           <h1 className="helpcinttab">Help And Support</h1>
           <Stack direction="row" spacing={1} sx={{ paddingTop: "1.7rem", paddingLeft: "-2rem" }}>
-            <Chip label="WET3456" sx={{ color: "grey", backgroundColor: "#E5EAD7" }} />
+            <Chip label="WET3456" sx={{ color: "grey", backgroundColor: "#E5EAD7" }}className="chipcut" />
           </Stack>
           <div className="imgfls">
             <img src="/src/assets/Frame 3907.svg" alt="" className="srchhlp" onClick={handleClearChat}/>
             <img src="/src/assets/Frame 3988.svg" alt="" className="srchhlp2" />
            
           </div>
+          <div className="dropdown">
+          <div className="dropdown-container">
+          <p className="dropdown-btn" onClick={() => setDropdownOpen(!isDropdownOpen)}>
+           <img src="/src/assets/Menu Vertical.svg" alt="" className="menuvertical" />
+          </p>
+          {isDropdownOpen && (
+            <div className="dropdown-content">
+              <p className="frst">Report bug</p>
+              <p className="sec" onClick={handleClearChat}>Clear chat</p>
+            </div>
+          )}
         </div>
 
-        <div className="avtar">
-          <BadgeAvatars className="Avatar" />
+          </div>
         </div>
+
+        <div className="avtar"  style={{position:"sticky",float:"right",marginTop:"-9rem",marginRight:"2rem",marginBottom:"10rem"}}>
+          <BadgeAvatars className="Avatar" />
+        </div> </div>
 
         <div className="msgcon">
           <textarea
@@ -98,6 +119,10 @@ export function Help() {
             </div>
           ))}
         </div>
+        <div className="bottomnav" >
+                <LabelBottomNavigation/>
+            </div>
+
       </div>
     </div>
   );

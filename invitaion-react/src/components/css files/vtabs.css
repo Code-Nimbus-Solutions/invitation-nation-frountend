@@ -235,3 +235,72 @@
 .pfpavtar2{
     padding: 0.7rem;
 }
+@media(width<600px){
+    .vertical-tabs{
+        position: relative;
+        left: -20rem;
+        top: -10rem;
+        width: 23.125rem;
+    }
+    .tab-content{
+        display: block;
+        position: relative;
+        left: -20rem;
+        width: 20rem;
+        top: 5rem;
+    }
+    .vertical-tabs-container {
+      display: flex;
+      flex-direction: column;
+      width: 0;     
+      z-index: -1;
+      
+       
+       
+         /* Switch to a column layout for small screens */
+      }
+      .updateprfl{
+        width: fit-content;
+        
+      }
+      .contentcont input{
+        width: 20rem;
+       
+        left: 20rem;
+      }
+      .imguploadsec{
+        position:absolute;
+        top: -10rem;
+        left: 2rem;
+      }
+      .pfp{
+        position: absolute;
+        top:-15rem ;
+        display: flex;
+        width: 20rem;
+        left: 2rem;
+      }
+      .contentcont{
+        top: 8rem;
+        position: relative;
+      }
+      .contenttxt h1{
+        top: 8rem;
+        position: relative;
+      }
+      .avtarset{
+        top: -36rem;
+        position: relative;
+        left: 0rem;
+        background-color: rgb(255, 255, 255);
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .updateprfl{
+        margin-bottom: 5rem;
+      }
+     
+      
+}

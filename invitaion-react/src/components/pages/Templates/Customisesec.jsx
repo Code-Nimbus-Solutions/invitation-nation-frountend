@@ -37,7 +37,7 @@ export function Customizsec() {
 
   return (<><div className="customise">
     {selectedSection && (
-      <div>
+      <div className='selectedimgcustom'>
         <h2 className="hedcustom">{selectedSection}</h2>
 
         {/* Displaying image */}
