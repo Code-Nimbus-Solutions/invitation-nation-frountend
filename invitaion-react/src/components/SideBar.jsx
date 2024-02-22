@@ -26,7 +26,7 @@ const SideBar = () => {
               </Link>
             </li>
             <li>
-              <Link to="" className="side-bar-nav-element">
+              <Link to="/Orders" className="side-bar-nav-element">
                 <img src={Orders} alt="" />
                 <span>Orders</span>
               </Link>
