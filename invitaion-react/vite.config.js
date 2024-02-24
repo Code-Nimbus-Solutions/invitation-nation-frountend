@@ -4,8 +4,8 @@ import { defineConfig } from "vite";
 export default {
   plugins: [react()],
   server: {
-    host: "192.168.68.112",
-    port: 5173,
+    host: "127.0.0.1",
+    port: 8000,
   },
   build: {
     rollupOptions: {
