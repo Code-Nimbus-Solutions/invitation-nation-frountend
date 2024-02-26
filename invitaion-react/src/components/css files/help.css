@@ -31,6 +31,7 @@
     /* 122.222%*/
     letter-spacing: -1.08px;
     position: sticky;
+    top: 0;
 }
 
 .helptab {
@@ -40,6 +41,8 @@
     width: 76.3rem;
     margin-left: -2rem;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .helpchp {
@@ -151,7 +154,10 @@
 .dropdown{
     display: none;
 }
-
+.fixedpos{
+    position: relative;
+    left: 18rem;
+}
 
 
 /* Mobile Styles */
@@ -169,8 +175,8 @@
         scale: 0.9;
         position: fixed;
         height: 2rem;
-        left: 2rem;
-        top: 58rem;
+        left: 1rem;
+        top: 51rem;
     }
 
     .helpcont {
@@ -178,7 +184,8 @@
     }
 
     .helptab {
-       width: 480px;
+       width: 430px;
+     
     }
 
     .imgfls {
@@ -251,6 +258,10 @@
         display: block;
         margin-left: auto;
     }
+    .fixedpos{
+        position: relative;
+        left: 0;
+    }
 }
 
 /* Media Queries for height */
@@ -270,8 +281,7 @@
 @media screen and (max-height: 780px) {
     .msgcon {
         position: fixed;
-        top: 47rem;
-        scale: 1.1;
+        top: 41rem;
     }
     .msgoutcont{
         margin-bottom: 10rem;
@@ -281,14 +291,15 @@
 {
     .msgcon{
         position: fixed;
-        top: 35rem;
+        top: 45rem;
+        scale: 0.7;
     }
 }
 @media(height<680px)
 {
     .msgcon{
         position: fixed;
-        top: 45rem;
+        top: 40rem;
     }
 }
 @media (min-width: 768px) {
@@ -301,6 +312,13 @@
         top: 38rem; /* Reset margin for desktop */
     }
 }
-
+@media(width<25rem)
+{
+    .helpmn{
+        width: 22rem;
+    }
+    
+    
+}
 /* General Styles (applicable to all screen sizes)*/
 /* Add your existing styles here*/

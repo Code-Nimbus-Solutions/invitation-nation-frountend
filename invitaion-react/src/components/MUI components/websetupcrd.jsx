@@ -7,8 +7,11 @@ export function Websetup(){
         <div className="maincard">
             <h1 className="crdhd">WebSite Setup</h1>
             <p className="percent">80% completed</p>
-            <CustomizedProgressBars/>
-            <Link to='/setting'><button className="custom">Customize Now</button></Link>
+            <CustomizedProgressBars className='pro'/>
+            <div className="custom1">
+                <Link to='/setting' className="customm"><button className="custom" style={{cursor:"pointer"}}>Customize Now</button></Link>
+            </div>
+            
             
         </div>
     )

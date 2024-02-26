@@ -4,19 +4,16 @@ import BadgeAvatars from "../../MUI components/avatar";
 import VerticalTabs from "../../MUI components/Verticaltabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 import '../../Mobilecssfiles/mobhero.css'
+import Navbar from "../../MUI components/Navbar";
 
 export function Setting(){
     return(
         <div className="settingmn">
-            <Sidebar/>
-          
- <div className="settingcont">
- <p className="andrie">Hi, Andrie</p>
-        <h1>Welcome to Invitation Nation</h1> 
-        
-            <div className="setavtar">
-            <BadgeAvatars/>
-        </div></div>
+            <div className="settngsidebar" style={{position:"fixed"}}>
+                 <Sidebar/>
+            </div>
+           
+  <Navbar/>
        <div className="settingimgcont">
         <img src="/src/assets/react.svg" alt="" className="aavtarstng" />
             <p className="settingtxt">Dwane Jhonson</p>

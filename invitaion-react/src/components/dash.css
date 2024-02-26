@@ -68,19 +68,25 @@
   font-weight: 700;
   line-height: 24px;
   /* 171.429% */
-  letter-spacing: -0.28px;
+  letter-spacing: 0.28px;
 
 }
 
 .maincard {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  left: 20%;
-  top: 20%;
+  margin-top: 9%;
+  margin-left: 2%;
   width: 358px;
   height: 160px;
   flex-shrink: 0;
   border-radius: 16px;
   background: var(--Dark-purp, #36004E);
+}
+
+.sideweb {
+  display: flex;
 }
 
 .crdhd {
@@ -124,8 +130,9 @@
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   line-height: normal;
+
 }
 
 .webanalytics {
@@ -281,10 +288,25 @@
   align-items: center;
   align-content: center;
 }
-.fourcrd{
+
+.fourcrd {
   position: absolute;
   top: 0rem;
   left: 55rem;
+}
+
+.crdhd {
+  padding-top: 0.5rem;
+  font-weight: 800;
+}
+
+.percent {
+  margin-top: -1rem;
+}
+.websetup{
+  position: relative;
+  margin-left: 22rem;
+  margin-top: 12rem;
 }
 
 @media (width < 600px) {
@@ -308,34 +330,71 @@
     margin-top: 10px;
     /* Add some top margin for spacing */
   }
-  .avtar{
+
+  .avtar {
     position: relative;
     left: 30rem;
-    
-  }
-  .desktopdash{
-    display: none;
-  }
-  .bottomnav{
-   position: fixed;
-   bottom: 0;
-    
-  }
-  .websetup{
-    justify-content: center;
-    margin: 1rem;
-    
 
   }
-  .websetup{
+
+  .desktopdash {
+    display: none;
+  }
+
+  .bottomnav {
+    position: fixed;
+    bottom: 0;
+
+  }
+
+  .websetup {
+    justify-content: center;
+    margin: 1rem;
+
+
+  }
+
+  .websetup {
     position: relative;
     left: -0.5rem;
     width: 100%;
     margin: 1rem;
+
   }
-  .tempcardimg{
+
+  .tempcardimg {
     width: 80vw;
   }
+
+  .crdhd {
+    padding-top: 1rem;
+  }
+
+  .percent {
+    padding-top: -2rem;
+  }
+
+  .maincard {
+    height: 12rem;
+  }
+
+  .custom {
+    margin-top: 1rem;
+    height: 2.5rem;
+
+
+  }
+
+  .custom1 {
+    width: 12rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+
+
+
 
 }
 

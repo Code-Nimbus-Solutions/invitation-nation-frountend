@@ -1,9 +1,11 @@
 import { Box } from "@mui/material"
 import { TextField } from "@mui/material"
 import { Link } from "react-router-dom"
+import '../../css files/Login.css'
 export function Forgotpassword(){
     return(
         <div className="forgtmain">
+          
             <div className="invitaionpass" >
                 <img src="/src/assets/image-removebg-preview (2) 1.svg" alt="" className="passinv" />
                 <h1 className="headingpass">Invitation nation</h1>
@@ -13,6 +15,7 @@ export function Forgotpassword(){
                
             </div> 
             <p className="parline" style={{margin:"-1%"}}>Enter your email address to get the password reset link.</p>
+            
             <Box
       component="form"
       sx={{
@@ -21,7 +24,7 @@ export function Forgotpassword(){
       noValidate
       autoComplete="on"
     >
-      <div>
+      <div className="forgtmail" > 
       
         <TextField
         
@@ -32,13 +35,14 @@ export function Forgotpassword(){
           className='mailip'
           
         />
-     
+     <button className="passwrdreset">Password Reset</button>
+     <Link to='/'style={{textDecoration:"none"}} ><p className="backlog" >Back to loign</p></Link>
       </div>
      
      
     </Box>
-    <button className="passwrdreset">Password Reset</button>
-    <Link to='/'style={{textDecoration:"none"}} ><p className="backlog" >Back to loign</p></Link>
+    
+    
         </div>
     )
 }

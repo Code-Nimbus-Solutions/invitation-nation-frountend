@@ -7,6 +7,8 @@ import  { Sidebar } from '../../MUI components/sidebar';
 import { Websetup } from "../../MUI components/websetupcrd";
 import Mobilehero from '../../Mobilecomponent/mobilehero';
 import LabelBottomNavigation from '../../MUI components/Bottomnavigation';
+import ImageUpload from '../../MUI components/imageupload';
+import Navbar from '../../MUI components/Navbar';
 
 export function Homepage(){
     return(
@@ -14,19 +16,18 @@ export function Homepage(){
             <div className="mobherodev">
                 <Mobilehero/>
             </div>
-            <div className="desktopdash">
-                
-            <p className="user">Hi , Andrie</p>
-            <h1 className="heading">Welcome to our website!</h1>
-            <div className="avtar">
-                <BadgeAvatars className="Avatar"/>
-            </div>
-            </div>
+           <div className="navbar">
+            <Navbar/>
+           </div>
+          <div className="sideweb">
+           
+                <Sidebar/>
           
-          <Sidebar/>
-          <div className="websetup">
+          
+          <div className="websetup" style={{zIndex:"1", }}>
             <Websetup/>
-          </div>
+          </div></div>
+         
             
             <div className="bottomnav" >
                 <LabelBottomNavigation/>

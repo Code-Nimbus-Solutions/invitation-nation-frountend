@@ -1,17 +1,18 @@
 .logcont {
     display: flex;
     justify-content: center;
+    align-content: center;
     margin-top: 10%;
+    margin-left: 7rem;
 }
 
 .avatar {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
-    background: url(<path-to-image>);
     position: relative;
     left: 0rem;
-    
+
 }
 
 .logtxt {
@@ -142,7 +143,7 @@
     line-height: normal;
     justify-content: center;
     position: relative;
-    top: 350%;
+    top: 0%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -151,14 +152,118 @@
     text-decoration: none;
 
 }
-.kkpcont{
+
+.kkpcont {
     display: flex;
     position: relative;
     top: 7rem;
     left: -3.5rem;
- 
-    
+
+
 }
-.logincreate{
+
+.logincreate {
     text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 12rem;
+}
+
+.mainlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.passwrdreset {
+    position: relative;
+    justify-content: center;
+    left: 5.5rem;
+}
+
+.signupmain {
+    box-sizing: border-box;
+
+}
+
+.loginform {
+    margin: 1rem;
+    scale: 0.95;
+}
+
+.sign {
+    scale: 0.95;
+}
+
+@media(width <31.25rem) {
+    .login {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 10rem;
+        left: 3.5rem;
+    }
+
+    .logmail {
+        position: relative;
+        margin: 2rem;
+        width: 100%;
+    }
+
+    .forgotpass {
+        position: relative;
+        left: 18rem;
+        top: 7.5rem;
+        text-decoration: none;
+    }
+
+    .kkpcont {
+        position: relative;
+        margin-left: 4.5rem;
+        top: 4rem;
+    }
+
+    .logincreate {
+        position: relative;
+        top: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 2rem;
+    }
+
+    .logcont {
+        margin-bottom: 2rem;
+    }
+
+    .forgtmail {
+        position: relative;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        scale: 0.8;
+
+
+    }
+
+    .passwrdreset {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        left: 5rem;
+    }
+
+    .mailip {
+        width: 10rem;
+    }
+
+    .log {
+        scale: 0.9;
+        position: relative;
+        left: -3rem;
+    }
+
 }

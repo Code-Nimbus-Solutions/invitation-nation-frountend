@@ -11,6 +11,7 @@ export function Customizsec() {
   useEffect(() => {
     // Simulating fetching the JSON data. Replace this with your actual data fetching logic.
     setSections(data.template_id);
+    setSelectedSection('Hero Section')
   }, []);
 
   const handleSectionChange = (section) => {
@@ -68,9 +69,7 @@ export function Customizsec() {
 
       <div className="customizecont">
         <select onChange={(e) => handleSectionChange(e.target.value)} className="mainsection">
-          <option value="" disabled selected>
-            Choose a section...
-          </option>
+       
           {sections &&
             sections.map((section, index) => (
               <option key={index} value={Object.keys(section)[0]} className="optionmain">

@@ -44,7 +44,7 @@ export function Signup() {
     setCombinedData(combined);
   };
   return (
-    <div>
+    <div className="signupmain">
       {showSignup2 ? (
         <Signup2 signinputs={signinputs2} onNextClick={handleSignup2Data} />
       ) : (

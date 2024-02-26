@@ -5,6 +5,7 @@ import WishTabs from "../../MUI components/Wishestabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 import Mobilehero from "../../Mobilecomponent/mobilehero";
 import '../../Mobilecssfiles/mobhero.css'
+import Navbar from "../../MUI components/Navbar";
 
 
 
@@ -20,8 +21,7 @@ export function Templetes(){
                 <Mobilehero/>
             </div>
         <div className="welcomhdng">
-            <p>Hi andrie</p>
-            <h2>Welcom to Invitaion Nation</h2>
+          <Navbar/>
         </div>
         
         

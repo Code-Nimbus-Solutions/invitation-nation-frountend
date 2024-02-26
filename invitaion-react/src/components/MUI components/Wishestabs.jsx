@@ -149,6 +149,7 @@ const WishTabs = () => {
             {filterWishesByType('Show').map((wish) => (
               <div key={wish.name}>
                 <div className="wishnb">
+                <img src={wish.Image} alt="sonam" className='imagavtar'style={{paddingRight:"1rem"}} />
                     <h3 className="wishname">
                     {wish.name}
                 </h3>
@@ -180,6 +181,7 @@ const WishTabs = () => {
             {filterWishesByType('Hide').map((wish) => (
               <div key={wish.name}>
               <div className="wishnb">
+              <img src={wish.Image} alt="sonam" className='imagavtar'style={{paddingRight:"1rem"}} />
                   <h3 className="wishname">
                   {wish.name}
               </h3>
@@ -211,6 +213,7 @@ const WishTabs = () => {
             {filterWishesByType('Public').map((wish) => (
                <div key={wish.name}>
                <div className="wishnb">
+               <img src={wish.Image} alt="sonam" className='imagavtar'style={{paddingRight:"1rem"}} />
                    <h3 className="wishname">
                    {wish.name}
                </h3>

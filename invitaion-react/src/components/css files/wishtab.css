@@ -204,6 +204,9 @@
 .pmobcontainer {
   display: none;
 }
+.wishbadge{
+  font-weight: 800;
+}
 
 /* wishtab.css */
 
@@ -213,6 +216,7 @@
 @media only screen and (max-width: 768px) {
   .mainwishcont {
     margin-left: 1rem;
+    width: 91%;
     /* Adjust margin for smaller screens */
   }
 
@@ -224,9 +228,12 @@
     top: 0;
     height: auto;
     margin-left: -1rem;
+    overflow: hidden;
+
    
     /* Adjust top positioning for smaller screens */
   }
+
 
   .minicardcont {
     display: flex;
