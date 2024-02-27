@@ -1,32 +1,39 @@
+import dash from "/src/assets/Icon (1).svg"
+import template from "/src/assets/Icon (1).svg"
+import wish from "/src/assets/Icon-2.svg"
+import gallery from "/src/assets/gallery_thumbnail.svg" 
+import help from "/src/assets/backup_table.svg"
+import setting from "/src/assets/Icon.svg"
+
 const Sidebardata=[
     {
     title:"Dashboard",
     path:"/dash",
-    icon: "/src/assets/Icon (1).svg"
+    icon: dash
 },
 {
     title:"Templetes",
     path:"/templetes",
-    icon: "/src/assets/Icon-1.svg"
+    icon: template
 },
 {
     title:"Wishes",
     path:"/wishes",
-    icon: "/src/assets/Icon-2.svg"
+    icon: wish
 },
 {
     title:"Gallery",
     path:"/gallery",
-    icon: "/src/assets/gallery_thumbnail.svg" 
+    icon: gallery
 },
 {
     title:"Help And Support",
     path:"/help",
-    icon: "/src/assets/backup_table.svg"
+    icon: help
 },
 {
     title:"Setting",
     path:"/setting",
-    icon:"/src/assets/Icon.svg"
+    icon: setting
 }]
 export default Sidebardata

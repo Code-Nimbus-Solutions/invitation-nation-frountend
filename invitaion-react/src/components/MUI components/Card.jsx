@@ -10,6 +10,7 @@ import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import cardimg from "/src/assets/react.svg"
 
 export default function ImgMediaCard() {
     const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
@@ -29,7 +30,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="green iguana"
         height="140"
-        image="/src/assets/react.svg"
+        image={cardimg}
       />
       <CardContent sx={{textAlign:"center"}}>
         <Typography gutterBottom variant="h5" component="div">

@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 import Sidebardata from "./sidebardata";
+import iconsd from '/src/assets/image 5 1 1 (1).svg'
 
 export function Sidebar() {
   return (
     <div className="route" style={{ position: "fixed" }}>
       <div className="sidebarmain sticky">
         <div className="iconcon">
-          <img src="/src/assets/image 5 1 1 (1).svg" alt="" className="iconsd" />
+          <img src={iconsd} alt="" className="iconsd" />
           <h1 className="invit">Invitation Icon</h1>
         </div>
         <div className="conttainer">

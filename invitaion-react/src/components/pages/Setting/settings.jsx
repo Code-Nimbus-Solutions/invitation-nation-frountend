@@ -5,6 +5,7 @@ import VerticalTabs from "../../MUI components/Verticaltabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 import '../../Mobilecssfiles/mobhero.css'
 import Navbar from "../../MUI components/Navbar";
+import avtarstng from '/src/assets/react.svg'
 
 export function Setting(){
     return(
@@ -15,7 +16,7 @@ export function Setting(){
            
   <Navbar/>
        <div className="settingimgcont">
-        <img src="/src/assets/react.svg" alt="" className="aavtarstng" />
+        <img src={avtarstng} alt="" className="aavtarstng" />
             <p className="settingtxt">Dwane Jhonson</p>
         </div>
 

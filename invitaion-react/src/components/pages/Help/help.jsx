@@ -5,6 +5,12 @@ import { Stack, Chip } from "@mui/material";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 import '../../css files/help.css';
 import { Link } from 'react-router-dom';
+import search from '/src/assets/Frame 3907.svg'
+import search1 from "/src/assets/Frame 3988.svg"
+import menuvertical from "/src/assets/Menu Vertical.svg"
+import payment from "/src/assets/Frame 3908.svg"
+import payment2 from "/src/assets/Frame 3922.svg" 
+
 
 function Message({ item }) {
   return (
@@ -69,13 +75,13 @@ export function Help() {
               <Chip label="WET3456" sx={{ color: "grey", backgroundColor: "#E5EAD7" }} className="chipcut" />
             </Stack>
             <div className="imgfls">
-              <img src="/src/assets/Frame 3907.svg" alt="" className="srchhlp" onClick={handleClearChat} />
-              <img src="/src/assets/Frame 3988.svg" alt="" className="srchhlp2" />
+              <img src={search} alt="" className="srchhlp" onClick={handleClearChat} />
+              <img src={search1} alt="" className="srchhlp2" />
             </div>
             <div className="dropdown">
               <div className="dropdown-container">
                 <p className="dropdown-btn" onClick={() => setDropdownOpen(!isDropdownOpen)}>
-                  <img src="/src/assets/Menu Vertical.svg" alt="" className="menuvertical" />
+                  <img src={menuvertical} alt="" className="menuvertical" />
                 </p>
                 {isDropdownOpen && (
                   <div className="dropdown-content">
@@ -100,11 +106,11 @@ export function Help() {
             onKeyDown={handleEnterKey}
           ></textarea>
           <Link to='/imageupld'><img
-            src="/src/assets/Frame 3908.svg"
+            src={payment}
             alt=""
             className="payment"
           /></Link>
-          <img src="/src/assets/Frame 3922.svg" alt="" className="payment2" onClick={handleSendMsg} />
+          <img src={payment2} alt="" className="payment2" onClick={handleSendMsg} />
         </div>
         <div className="msgoutcont">
           {inputmsg.map((item, index) => (

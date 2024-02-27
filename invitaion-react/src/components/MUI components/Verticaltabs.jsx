@@ -3,6 +3,13 @@ import '../css files/vtabs.css' // Import your CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AccountDetails } from '../Vtabs files/Accountdetails';
 import { Link } from 'react-router-dom';
+import contact from "/src/assets/Component 2.svg"
+import likedtemplate from "/src/assets/Component 2 (1).svg"
+import order from "/src/assets/Component 2 (2).svg"
+import report from "/src/assets/Component 2 (3).svg"
+import faq from "/src/assets/Component 2 (3).svg"
+import help from "/src/assets/Component 2 (4).svg"
+import logout from "/src/assets/Component 2 (5).svg"
 
 
 const VerticalTabs = () => {
@@ -19,43 +26,43 @@ const VerticalTabs = () => {
           className={`vertical-tab ${activeTab === 1 ? 'active' : ''}`}
           onClick={() => handleTabClick(1)}
         >
-        <img src="/src/assets/Component 2.svg" alt="" className="oh" /> Contact Details 
+        <img src={contact} alt="" className="oh" /> Contact Details 
         </div></a>
         <div
           className={`vertical-tab ${activeTab === 2 ? 'active' : ''}`}
           onClick={() => handleTabClick(2)}
         >
-          <img src="/src/assets/Component 2 (1).svg" alt="" className="oh" />Liked Templates
+          <img src={likedtemplate} alt="" className="oh" />Liked Templates
         </div>
         <div
           className={`vertical-tab ${activeTab === 3 ? 'active' : ''}`}
           onClick={() => handleTabClick(3)}
         >
-          <img src="/src/assets/Component 2 (2).svg" alt="" className="oh" />Order History
+          <img src={order} alt="" className="oh" />Order History
         </div> 
         <Link to='/help' style={{textDecoration:"none"}}><div
           className={`vertical-tab ${activeTab === 4 ? 'active' : ''}`}
           onClick={() => handleTabClick(4)}
         >
-        <img src="/src/assets/Component 2 (3).svg" alt="" className="oh" /> Report An Issue
+        <img src={report} alt="" className="oh" /> Report An Issue
         </div></Link>
         <div
           className={`vertical-tab ${activeTab === 5 ? 'active' : ''}`}
           onClick={() => handleTabClick(5)}
         >
-         <img src="/src/assets/Component 2 (3).svg" alt="" className="oh" /> FAQ's
+         <img src={faq} alt="" className="oh" /> FAQ's
         </div>
         <Link to='/help' style={{textDecoration:"none"}}><div
           className={`vertical-tab ${activeTab === 6 ? 'active' : ''}`}
           onClick={() => handleTabClick(6)}
         >
-         <img src="/src/assets/Component 2 (4).svg" alt="" className="oh" /> Help and Support
+         <img src={help} alt="" className="oh" /> Help and Support
         </div></Link>
         <div
           className={`vertical-tab ${activeTab === 7 ? 'active' : ''}`}
           onClick={() => handleTabClick(7)}
         >
-         <img src="/src/assets/Component 2 (5).svg" alt="" className="oh" /> Logout
+         <img src={logout} alt="" className="oh" /> Logout
         </div>
         {/* Add more tabs as needed */}
       </div>

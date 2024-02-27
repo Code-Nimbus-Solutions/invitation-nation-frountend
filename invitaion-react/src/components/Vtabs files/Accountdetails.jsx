@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import ImageUpload from '../pages/Setting/imageupload';
 import '../css files/setting.css'
+import savelife from "/src/assets/Frame 133542.svg"
+import pfpavtar from "/src/assets/Rectangle 7003.svg"
+import pfpavtar2 from "/src/assets/Rectangle 7004.svg"
+
 
 export function AccountDetails() {
   const [formData, setFormData] = useState({
@@ -131,7 +135,7 @@ export function AccountDetails() {
             
            
         
-        <img src="/src/assets/Frame 133542.svg" alt="" className="savefile" />
+        <img src={savelife} alt="" className="savefile" />
         <p className="textupload">Upload your Photo</p>
         <div className="imgupload" style={{position:"relative", top:"-5rem"}}>
            <ImageUpload onClick={handleImageUpload} />
@@ -142,8 +146,8 @@ export function AccountDetails() {
       </div> </div>
       <div className="avtarset">
     
-        <img src="/src/assets/Rectangle 7003.svg" alt="" className="pfpavtar" onClick={() => handleAvatarClick('/src/assets/Rectangle 7003.svg')} />
-        <img src="/src/assets/Rectangle 7004.svg" alt="" className="pfpavtar2" onClick={() => handleAvatarClick('/src/assets/Rectangle 7004.svg')} />
+        <img src={pfpavtar} alt="" className="pfpavtar" onClick={() => handleAvatarClick('/src/assets/Rectangle 7003.svg')} />
+        <img src={pfpavtar2} alt="" className="pfpavtar2" onClick={() => handleAvatarClick('/src/assets/Rectangle 7004.svg')} />
       </div>
       {selectedAvatar && (
         <div id="preview" className='mainimgcont' style={{width:"10rem",height:"10rem",position:"relative",top:"-33rem", left:"31.9rem",}} >
