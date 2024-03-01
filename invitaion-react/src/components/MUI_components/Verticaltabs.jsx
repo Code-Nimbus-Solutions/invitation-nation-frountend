@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css_files/vtabs.css' // Import your CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { AccountDetails } from '../Vtabs files/Accountdetails';
+import { AccountDetails } from '../vtabs_files/Accountdetails';
 import { Link } from 'react-router-dom';
 import contact from "/src/assets/Component 2.svg"
 import likedtemplate from "/src/assets/Component 2 (1).svg"

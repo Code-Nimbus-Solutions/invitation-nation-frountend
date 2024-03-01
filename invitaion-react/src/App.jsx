@@ -3,7 +3,7 @@ import './index.css';
 import '/src/components/dash.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Loader from './components/MUI components/Loader';
+import Loader from './components/MUI_components/Loader';
 
 // Import all your components
 import { Login } from './components/pages/loginsignup_page/Login';

@@ -1,4 +1,4 @@
-import BadgeAvatars from "../MUI components/avatar";
+import BadgeAvatars from "../MUI_components/avatar";
 import '../Mobilecssfiles/mobhero.css'
 import Mobile from '/src/assets/Invitation icon.svg'
 

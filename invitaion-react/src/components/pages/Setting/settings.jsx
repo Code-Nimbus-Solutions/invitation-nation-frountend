@@ -1,10 +1,10 @@
-import { Sidebar } from "../../MUI components/sidebar";
+import { Sidebar } from "../../MUI_components/sidebar";
 import '../../css_files/setting.css'
-import BadgeAvatars from "../../MUI components/avatar";
-import VerticalTabs from "../../MUI components/Verticaltabs";
-import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
+import BadgeAvatars from "../../MUI_components/avatar";
+import VerticalTabs from "../../MUI_components/Verticaltabs";
+import LabelBottomNavigation from "../../MUI_components/Bottomnavigation";
 import '../../Mobilecssfiles/mobhero.css'
-import Navbar from "../../MUI components/Navbar";
+import Navbar from "../../MUI_components/Navbar";
 import avtarstng from '/src/assets/react.svg'
 
 export function Setting(){

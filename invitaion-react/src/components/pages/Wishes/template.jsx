@@ -1,11 +1,11 @@
-import { Sidebar } from "../../MUI components/sidebar";
+import { Sidebar } from "../../MUI_components/sidebar";
 import '../../css_files/wish.css'
-import BadgeAvatars from "../../MUI components/avatar";
-import WishTabs from "../../MUI components/Wishestabs";
-import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
+import BadgeAvatars from "../../MUI_components/avatar";
+import WishTabs from "../../MUI_components/Wishestabs";
+import LabelBottomNavigation from "../../MUI_components/Bottomnavigation";
 import Mobilehero from "../../Mobilecomponent/mobilehero";
 import '../../Mobilecssfiles/mobhero.css'
-import Navbar from "../../MUI components/Navbar";
+import Navbar from "../../MUI_components/Navbar";
 
 
 

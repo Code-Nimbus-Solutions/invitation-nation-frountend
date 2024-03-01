@@ -1,14 +1,14 @@
-import BadgeAvatars from '../../MUI components/avatar';
+import BadgeAvatars from '../../MUI_components/avatar';
 import '../../../components/dash.css'
-import  { Sidebar } from '../../MUI components/sidebar';
+import  { Sidebar } from '../../MUI_components/sidebar';
 
 
 
-import { Websetup } from "../../MUI components/websetupcrd";
+import { Websetup } from "../../MUI_components/websetupcrd";
 import Mobilehero from '../../Mobilecomponent/mobilehero';
-import LabelBottomNavigation from '../../MUI components/Bottomnavigation';
-import ImageUpload from '../../MUI components/imageupload';
-import Navbar from '../../MUI components/Navbar';
+import LabelBottomNavigation from '../../MUI_components/Bottomnavigation';
+import ImageUpload from '../../MUI_components/imageupload';
+import Navbar from '../../MUI_components/Navbar';
 
 export function Homepage(){
     return(

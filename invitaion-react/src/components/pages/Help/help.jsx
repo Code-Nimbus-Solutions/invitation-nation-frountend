@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Sidebar } from "../../MUI components/sidebar";
-import BadgeAvatars from "../../MUI components/avatar";
+import { Sidebar } from "../../MUI_components/sidebar";
+import BadgeAvatars from "../../MUI_components/avatar";
 import { Stack, Chip } from "@mui/material";
-import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
+import LabelBottomNavigation from "../../MUI_components/Bottomnavigation";
 import '../../css_files/help.css';
 import { Link } from 'react-router-dom';
 import search from '/src/assets/Frame 3907.svg'
