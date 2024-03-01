@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css files/wishtab.css';
+import '../css_files/wishtab.css';
 import Wishesdata from '../Data/Wishesdata.json';
 
 const WishTabs = () => {

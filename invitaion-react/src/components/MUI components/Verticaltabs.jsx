@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css files/vtabs.css' // Import your CSS file for styling
+import '../css_files/vtabs.css' // Import your CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AccountDetails } from '../Vtabs files/Accountdetails';
 import { Link } from 'react-router-dom';

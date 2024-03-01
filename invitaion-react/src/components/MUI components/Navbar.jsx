@@ -1,5 +1,5 @@
 import BadgeAvatars from "./avatar"
-import '../css files/setting.css'
+import '../css_files/setting.css'
 export default function Navbar(){
     return(
         <div className="mainNavbar" style={{zIndex:9999}}>

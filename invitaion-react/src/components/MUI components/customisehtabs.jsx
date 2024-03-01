@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Customizsec } from '../../components/pages/Templates/Customisesec';
-import '../css files/tabcon.css';
+import '../css_files/tabcon.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { LinearProgress } from '@mui/material';

@@ -1,5 +1,5 @@
 import { Sidebar } from "../../MUI components/sidebar";
-import '../../css files/wish.css'
+import '../../css_files/wish.css'
 import BadgeAvatars from "../../MUI components/avatar";
 import WishTabs from "../../MUI components/Wishestabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";

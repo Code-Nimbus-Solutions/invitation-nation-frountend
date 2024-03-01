@@ -6,15 +6,15 @@ import { useEffect, useState } from 'react';
 import Loader from './components/MUI components/Loader';
 
 // Import all your components
-import { Login } from './components/pages/loginsignup page/Login';
-import { Signup } from './components/pages/loginsignup page/Signup';
+import { Login } from './components/pages/loginsignup_page/Login';
+import { Signup } from './components/pages/loginsignup_page/Signup';
 import { Homepage } from './components/pages/Dashboard/Homepage';
 import { Templetes } from './components/pages/Wishes/template';
 import { Wishes } from './components/pages/Templates/wishes';
 import { Gallery } from './components/gallery';
 import { Help } from './components/pages/Help/help';
 import { Setting } from './components/pages/Setting/settings';
-import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswrd';
+import { Forgotpassword } from './components/pages/loginsignup_page/Forgotpasswrd';
 import { MainCustom } from './components/pages/Templates/MianCustom';
 import Imageupload from './components/pages/Gallery-upld/imageupld';
 

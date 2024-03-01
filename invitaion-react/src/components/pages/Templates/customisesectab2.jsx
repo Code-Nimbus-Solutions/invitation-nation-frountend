@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import data from '../../Data/data.json';
-import '../../css files/custom.css';
+import '../../css_files/custom.css';
 
 export function Customizsectab2() {
   const [sections, setSections] = useState(null);

@@ -1,5 +1,5 @@
 import { Sidebar } from "../../MUI components/sidebar";
-import '../../css files/setting.css'
+import '../../css_files/setting.css'
 import BadgeAvatars from "../../MUI components/avatar";
 import VerticalTabs from "../../MUI components/Verticaltabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";

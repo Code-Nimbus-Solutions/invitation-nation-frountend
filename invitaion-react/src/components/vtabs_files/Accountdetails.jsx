@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ImageUpload from '../pages/Setting/imageupload';
-import '../css files/setting.css'
+import '../css_files/setting.css'
 import savelife from "/src/assets/Frame 133542.svg"
 import pfpavtar from "/src/assets/Rectangle 7003.svg"
 import pfpavtar2 from "/src/assets/Rectangle 7004.svg"

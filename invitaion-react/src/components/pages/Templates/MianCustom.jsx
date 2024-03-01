@@ -1,7 +1,7 @@
 
 import HorizontalTabs from "../../MUI components/customisehtabs";
 import BadgeAvatars from "../../MUI components/avatar";
-import '../../css files/custom.css'
+import '../../css_files/custom.css'
 import Logo from "/src/assets/react.svg"
 
 

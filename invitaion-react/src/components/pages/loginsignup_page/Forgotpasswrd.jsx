@@ -1,7 +1,7 @@
 import { Box } from "@mui/material"
 import { TextField } from "@mui/material"
 import { Link } from "react-router-dom"
-import '../../css files/Login.css'
+import '../../css_files/Login.css'
 import Logo from '/src/assets/image-removebg-preview (2) 1.svg'
 export function Forgotpassword(){
     return(

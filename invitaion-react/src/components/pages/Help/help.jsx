@@ -3,7 +3,7 @@ import { Sidebar } from "../../MUI components/sidebar";
 import BadgeAvatars from "../../MUI components/avatar";
 import { Stack, Chip } from "@mui/material";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
-import '../../css files/help.css';
+import '../../css_files/help.css';
 import { Link } from 'react-router-dom';
 import search from '/src/assets/Frame 3907.svg'
 import search1 from "/src/assets/Frame 3988.svg"

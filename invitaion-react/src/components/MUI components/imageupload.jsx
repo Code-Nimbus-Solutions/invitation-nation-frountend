@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css files/imageup.css'
+import '../css_files/imageup.css'
 
 const ImageUpload = () => {
   const [selectedImage, setSelectedImage] = useState(null);

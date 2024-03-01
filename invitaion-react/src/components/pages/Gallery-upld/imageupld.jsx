@@ -2,7 +2,7 @@
 import { useState } from "react";
 import FileInput from "../Gallery-upld/Fileinput";
 import ImageCropper from "./Imagecropper";
-import '../../css files/imageupld.css'
+import '../../css_files/imageupld.css'
 
 export default function Imageupload(){
     const [image, setImage] = useState("");
