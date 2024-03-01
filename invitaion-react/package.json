@@ -21,7 +21,8 @@
     "react-dom": "^18.2.0",
     "react-easy-crop": "^5.0.5",
     "react-router-dom": "^6.21.2",
-    "react-sticky": "^6.0.3"
+    "react-sticky": "^6.0.3",
+    "serve-static": "^1.15.0"
   },
   "devDependencies": {
     "@rollup/plugin-html": "^1.0.3",
