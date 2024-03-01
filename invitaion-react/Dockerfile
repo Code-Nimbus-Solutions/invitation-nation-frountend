@@ -14,10 +14,10 @@ RUN npm install -g http-server -y
 
 #RUN npm install -g serve@11.3.2
 
-COPY build /home/ango
+COPY dist /home/ango
 
 # Expose port 80
-EXPOSE 8080
+EXPOSE 8000
 
 # Default command to start Nginx when the container starts
 # CMD ["nginx", "-g", "daemon off;"]
