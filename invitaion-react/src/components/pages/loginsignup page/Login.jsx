@@ -7,6 +7,7 @@ import Logindata from '../../Data/Logindata.json';
 import { useNavigate } from 'react-router-dom';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import Logo from '/src/assets/image-removebg-preview (2) 1.svg'
 
 export function Login() { 
 
@@ -56,15 +57,16 @@ export function Login() {
     return(
         <>
         <form action="submit" className="log" onSubmit={handleSubmit}>
+          <div className="mainlogin">
         <div className="logcont">
-            <img src="/src/assets/image-removebg-preview (2) 1.svg" alt="logo" className="avatar" />
+            <img src={Logo} alt="logo" className="avatar" />
             <h1 className="logtxt">
                 Invitation Nation
             </h1>
 
 
         </div>
-       <Link to='/forgotpass'><h3 className="forgotpass">Forgot Password ?</h3></Link> 
+       
         <div className="loginput">
         <Box
       component="form"
@@ -98,7 +100,7 @@ export function Login() {
                  value={inputValues.password}
         />
      
-            </div>
+            </div><Link to='/forgotpass' style={{textDecoration:"none"}}><h3 className="forgotpass">Forgot Password ?</h3></Link> 
             </Box>
             
            <div className="kkpcont">
@@ -112,6 +114,7 @@ export function Login() {
          
           
            
+        </div>
         </div>
         {/* <h1>{inputValues.password}</h1><h1>{inputValues.email}</h1> <p>Keep me signed in: {inputValues.keepSignedIn ? 'Yes' : 'No'}</p> */}
 </form></>

@@ -11,6 +11,7 @@ export function Customizsectab2() {
   useEffect(() => {
     // Simulating fetching the JSON data. Replace this with your actual data fetching logic.
     setSections(data.template_id);
+    setSelectedSection('Hero Section')
   }, []);
 
   const handleSectionChange = (section) => {
@@ -66,10 +67,10 @@ export function Customizsectab2() {
 
 
       <div >
-        <select onChange={(e) => handleSectionChange(e.target.value)} className="mainsection2" style={{width:"30rem",marginRight:"2rem"}}>
-          <option value="" disabled selected>
+        <select onChange={(e) => handleSectionChange(e.target.value)} className="mainsection2" >
+          {/* <option value="" disabled selected>
             Choose a section...
-          </option>
+          </option> */}
           {sections &&
             sections.map((section, index) => (
               <option key={index} value={Object.keys(section)[0]} className="optionmain">
@@ -80,7 +81,7 @@ export function Customizsectab2() {
 
 
         {selectedSection && (
-          <div className='selectedimgcustom' >
+          <div className='selectedimgcustom2' >
             
             {sections &&
               sections
@@ -89,7 +90,7 @@ export function Customizsectab2() {
                 sections
                   .find((section) => Object.keys(section)[0] === selectedSection)[selectedSection]
               ).map(([field, fieldType]) => (
-                <div key={field} className="custominputfld" style={{width:"32rem"}}>
+                <div key={field} className="custominputfld2" >
                   <label>{field}</label>
                   {fieldType === 'file' ? (
                     <input

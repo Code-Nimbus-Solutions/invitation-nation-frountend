@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { LinearProgress } from '@mui/material';
 import { Customizsectab2 } from '../../components/pages/Templates/customisesectab2';
+import leftarrow from "/src/assets/arrow_back_ios.svg"
 
 function HorizontalTabs() {
   const [activeTab, setActiveTab] = useState(() => {
@@ -31,8 +32,8 @@ function HorizontalTabs() {
     <div className='minidash'>
       <div style={{ display: 'flex' }} className='tabshorisec'>
         <Link to='/templetes' style={{ textDecoration: "none" }}>
-          <p className="back"><img src="/src/assets/arrow_back_ios.svg" alt="" className="leftarw" />Back to Dashboard</p>
-          <img src="/src/assets/arrow_back_ios.svg" alt="" className="leftarwmobile" />
+          <p className="back"><img src={leftarrow} alt="" className="leftarw" />Back to Dashboard</p>
+          <img src={leftarrow} alt="" className="leftarwmobile" />
 
         </Link>
         <div className="desktoptab">

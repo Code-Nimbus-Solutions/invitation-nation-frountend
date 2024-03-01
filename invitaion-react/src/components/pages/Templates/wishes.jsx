@@ -4,6 +4,7 @@ import BasicTabs from "../../MUI components/TemplateTabs";
 import LabelBottomNavigation from "../../MUI components/Bottomnavigation";
 import Mobilehero from "../../Mobilecomponent/mobilehero";
 import '../../Mobilecssfiles/mobhero.css'
+import Navbar from "../../MUI components/Navbar";
 export function Wishes(){
     return(
         <>
@@ -13,16 +14,15 @@ export function Wishes(){
             </div>
             <div className="tempcont">
                 <Sidebar />
-                <div className="mainttemptxt">
+                <div className="mainttemptxt" style={{ }}>
                     <div className="mobsec">
-                        <p className="andretemp">Hi Andrei,</p>
-    
-              
-                <h1 className="temp" style={{justifyContent:"center",width:"600px"}}>Welcome To invitation Nation</h1>
+                        <Navbar/>
                     </div>
                     
-                    
-                <BasicTabs/>
+                    <div className="basictabs">
+                        <BasicTabs/>
+                    </div>
+                
                
                
             </div>

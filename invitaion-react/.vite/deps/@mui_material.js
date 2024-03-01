@@ -6153,7 +6153,7 @@ var bottomNavigationClasses_default = bottomNavigationClasses;
 
 // node_modules/@mui/material/BottomNavigation/BottomNavigation.js
 var import_jsx_runtime36 = __toESM(require_jsx_runtime());
-var _excluded20 = ["children", "className", "component", "onChange", "showLabels", "value"];
+var _excluded20 = ["children", "className", "component", "onChange", "showlabels", "value"];
 var useUtilityClasses18 = (ownerState) => {
   const {
     classes
@@ -6185,12 +6185,12 @@ var BottomNavigation = React29.forwardRef(function BottomNavigation2(inProps, re
     className,
     component = "div",
     onChange,
-    showLabels = false,
+    showlabels = false,
     value
   } = props, other = _objectWithoutPropertiesLoose(props, _excluded20);
   const ownerState = _extends({}, props, {
     component,
-    showLabels
+    showlabels
   });
   const classes = useUtilityClasses18(ownerState);
   return (0, import_jsx_runtime36.jsx)(BottomNavigationRoot, _extends({
@@ -6211,7 +6211,7 @@ var BottomNavigation = React29.forwardRef(function BottomNavigation2(inProps, re
       const childValue = child.props.value === void 0 ? childIndex : child.props.value;
       return React29.cloneElement(child, {
         selected: childValue === value,
-        showLabel: child.props.showLabel !== void 0 ? child.props.showLabel : showLabels,
+        showlabel: child.props.showlabel !== void 0 ? child.props.showlabel : showlabels,
         value: childValue,
         onChange
       });
@@ -6252,7 +6252,7 @@ true ? BottomNavigation.propTypes = {
    * By default, only the selected `BottomNavigationAction` will show its label.
    * @default false
    */
-  showLabels: import_prop_types21.default.bool,
+  showlabels: import_prop_types21.default.bool,
   /**
    * The system prop that allows defining system overrides as well as additional CSS styles.
    */
@@ -6278,16 +6278,16 @@ var bottomNavigationActionClasses_default = bottomNavigationActionClasses;
 // node_modules/@mui/material/BottomNavigationAction/BottomNavigationAction.js
 var import_jsx_runtime37 = __toESM(require_jsx_runtime());
 var import_jsx_runtime38 = __toESM(require_jsx_runtime());
-var _excluded21 = ["className", "icon", "label", "onChange", "onClick", "selected", "showLabel", "value"];
+var _excluded21 = ["className", "icon", "label", "onChange", "onClick", "selected", "showlabel", "value"];
 var useUtilityClasses19 = (ownerState) => {
   const {
     classes,
-    showLabel,
+    showlabel,
     selected
   } = ownerState;
   const slots = {
-    root: ["root", !showLabel && !selected && "iconOnly", selected && "selected"],
-    label: ["label", !showLabel && !selected && "iconOnly", selected && "selected"]
+    root: ["root", !showlabel && !selected && "iconOnly", selected && "selected"],
+    label: ["label", !showlabel && !selected && "iconOnly", selected && "selected"]
   };
   return composeClasses(slots, getBottomNavigationActionUtilityClass, classes);
 };
@@ -6298,7 +6298,7 @@ var BottomNavigationActionRoot = styled_default(ButtonBase_default, {
     const {
       ownerState
     } = props;
-    return [styles4.root, !ownerState.showLabel && !ownerState.selected && styles4.iconOnly];
+    return [styles4.root, !ownerState.showlabel && !ownerState.selected && styles4.iconOnly];
   }
 })(({
   theme,
@@ -6313,9 +6313,9 @@ var BottomNavigationActionRoot = styled_default(ButtonBase_default, {
   color: (theme.vars || theme).palette.text.secondary,
   flexDirection: "column",
   flex: "1"
-}, !ownerState.showLabel && !ownerState.selected && {
+}, !ownerState.showlabel && !ownerState.selected && {
   paddingTop: 14
-}, !ownerState.showLabel && !ownerState.selected && !ownerState.label && {
+}, !ownerState.showlabel && !ownerState.selected && !ownerState.label && {
   paddingTop: 0
 }, {
   [`&.${bottomNavigationActionClasses_default.selected}`]: {
@@ -6335,7 +6335,7 @@ var BottomNavigationActionLabel = styled_default("span", {
   opacity: 1,
   transition: "font-size 0.2s, opacity 0.2s",
   transitionDelay: "0.1s"
-}, !ownerState.showLabel && !ownerState.selected && {
+}, !ownerState.showlabel && !ownerState.selected && {
   opacity: 0,
   transitionDelay: "0s"
 }, {
@@ -6421,7 +6421,7 @@ true ? BottomNavigationAction.propTypes = {
    *
    * The prop defaults to the value (`false`) inherited from the parent BottomNavigation component.
    */
-  showLabel: import_prop_types22.default.bool,
+  showlabel: import_prop_types22.default.bool,
   /**
    * The system prop that allows defining system overrides as well as additional CSS styles.
    */
@@ -25397,7 +25397,7 @@ var Tabs = React148.forwardRef(function Tabs2(inProps, ref) {
         tabMeta = tab ? tab.getBoundingClientRect() : null;
         if (true) {
           if (!warnedOnceTabPresent && tabMeta && tabMeta.width === 0 && tabMeta.height === 0 && // if the whole Tabs component is hidden, don't warn
-          tabsMeta.clientWidth !== 0) {
+            tabsMeta.clientWidth !== 0) {
             tabsMeta = null;
             console.error(["MUI: The `value` provided to the Tabs component is invalid.", `The Tab with this \`value\` ("${value}") is not part of the document layout.`, "Make sure the tab item is present in the document or that it's not `display: none`."].join("\n"));
             warnedOnceTabPresent = true;

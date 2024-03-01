@@ -188,6 +188,10 @@ padding-top: 2rem;
   height: 30rem;
     object-fit: cover;
 }
+.mainsection2{
+    width: 30rem;
+    margin-right: 1rem;
+}
 
 @media(width<600px)
 {
@@ -254,6 +258,33 @@ padding-top: 2rem;
         font-family: 'DM sans';
         text-align: center;
     }
+   
     
+}
+@media(width<25rem)
+{
+
+.custominputfld{
+    width: fit-content;
+}
+.customizecont{
+    width: fit-content;
+}
+.mainsection{
+    width: fit-content;
+}
+.imgsec{
+    width:6rem;
+    height: 30rem;
     
+}
+.mainsection2{
+    width: fit-content;
+}
+.custominputfld2{
+    width: fit-content;
+}
+.selectedimgcustom2{
+    width: fit-content;
+}
 }

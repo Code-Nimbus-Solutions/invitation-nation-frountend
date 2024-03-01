@@ -27,7 +27,7 @@ export default function CustomizedProgressBars() {
     <Box sx={{ flexGrow: 1 ,width:"300px",paddingTop:"0px",color:"green",paddingLeft:"20px"}}>
      
       
-      <BorderLinearProgress variant="determinate" color='success' value={50} sx={{
+      <BorderLinearProgress variant="determinate" color='success' value={80} sx={{
                   backgroundColor: 'white',
                   '& .MuiLinearProgress-bar': {
                     backgroundColor: '#018416'

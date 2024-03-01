@@ -10,6 +10,12 @@
 .bottomnav{
     display: none;
 }
+.basictabs{
+  position: relative;
+  margin-top: 12rem;
+  margin-left: 18rem;
+
+}
 @media (width < 600px) {
     .maincard{
         position: relative;
@@ -65,5 +71,10 @@
       .tempcard3{
         position: relative;
         left: -2rem;
+      }
+      .basictabs{
+        position: relative;
+        margin-top: 0rem;
+        margin-left: 0rem;
       }
 }
