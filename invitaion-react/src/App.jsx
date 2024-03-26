@@ -56,9 +56,19 @@ function App() {
           <Route path='/forgotpass' element={<Forgotpassword />} />
           <Route path='/Coustomise' element={<MainCustom />} />
           <Route path='/imageupld' element={<Imageupload />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/ForgotPassword" element={<ForgotPassword />} />
+          <Route path="/Overview" element={<Overview />} />
+          <Route path="/Templates" element={<Templates />} />
+          <Route path="/Chat" element={<Chat />} />
+          <Route path="/Orders" element={<Orders />} />
+          <Route path="/Category" element={<Category />} />
         </Routes>
        
       )}
+          
+       
+   
     </div>
   );
 }

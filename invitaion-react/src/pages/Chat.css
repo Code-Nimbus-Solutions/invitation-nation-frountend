@@ -1,0 +1,254 @@
+.chat-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.main-area-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.area-main {
+  width: 100%;
+  display: flex;
+  padding: 2.4rem;
+  box-sizing: border-box;
+}
+
+.chat-bar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.chat-bar-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.search-bar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 3.4rem 0px rgba(255, 115, 29, 0.1);
+}
+
+.search-bar-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.search-bar-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar-box input {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.chat-bar-filter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.chat-bar-filter li {
+  color: var(--Secondary, #525256);
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.chat-bar-filter li.active {
+  color: var(--Bright-purp, #8d4ea5);
+  border-bottom: 1px solid #8d4ea5;
+}
+
+.chat-bar-users-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chat-bar-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-bar-user-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.chat-bar-user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-bar-msg-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.user-prev-msg {
+  color: #a19791;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.chat-bar-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff731d;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+}
+
+.notification-no {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.chat-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chat-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+  border-bottom: 1px solid var(--Mindful-Gray-30, #d5c2b9);
+}
+
+.chat-tags {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chat-user-name {
+  color: var(--Mindful-Gray-80, #4b3425);
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.chat-tags span {
+  padding: 1rem;
+  border-radius: 1234px;
+  background: var(--Serenity-Green-20, #e5ead7);
+  color: var(--Serenity-Green-50, #9bb068);
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.chat-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.chat-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.chat-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-message-box {
+  width: 100%;
+  height: 100%;
+  padding: 2.4rem;
+  background: #dfd9e2;
+  position: relative;
+  display: flex;
+}
+
+.chat-msg {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.msg {
+  width: 80%;
+  padding: 1.6rem;
+  color: var(--mindful-gray-100-alpha-64, rgba(31, 22, 15, 0.64));
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+  border-radius: 1.6rem 1.6rem 1.6rem 0rem;
+  background: var(--Light-grey, #bfbfbf);
+}
+
+.send-msg {
+  padding: 2.4rem;
+  width: 50%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 32px;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+}
+
+.send-msg input {
+  width: 80%;
+}
+
+.send-msg-icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.msg-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+  background: var(--Dark-purp, #36004e);
+}
+
+.msg-icon img {
+  width: 100%;
+  height: 100%;
+}
