@@ -4,6 +4,7 @@ import HeroDecorationLeft from "../assets/hero-section-images/hero-decoration.pn
 import HeroDecorationRight from "../assets/hero-section-images/hero-decoration.png";
 import HeroRightArrow from "../assets/hero-section-images/hero-right-arrow.png";
 import HeroLeftArrow from "../assets/hero-section-images/hero-left-arrow.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   let prevScrollPos = window.scrollY;
@@ -152,7 +153,7 @@ const Hero = () => {
             MOBILE FRIENDLY
           </h2>
           <div class="hero-padding"></div>
-          <a href="#" id="hero-btn" class="hero-btn">
+          <a href="/temp" id="hero-btn" class="hero-btn">
             Explore Templates
           </a>
           <div id="hero-img" class="hero-img">
