@@ -87,7 +87,7 @@ const WishTabs = () => {
      
       </div>
        <div className="minicardcont">
-        <div className="card1">
+        <div className="card11">
           <p className="numbwish">
             350
           </p>

@@ -1,8 +1,8 @@
 import React from "react";
-import Wedding from "../assets/popular-events/wedding.svg";
-import Business from "../assets/popular-events/business.svg";
-import Birthday from "../assets/popular-events/birthday.svg";
-import MusicFestival from "../assets/popular-events/music-festival.svg";
+import Wedding from "../assets1/popular-events/wedding.svg";
+import Business from "../assets1/popular-events/business.svg";
+import Birthday from "../assets1/popular-events/birthday.svg";
+import MusicFestival from "../assets1/popular-events/music-festival.svg";
 
 const PopularEvents = () => {
   return (

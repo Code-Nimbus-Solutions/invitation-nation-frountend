@@ -1,10 +1,10 @@
 import React from "react";
-import Templatedata from '../Data/explorecard.json'// Importing the JSON data
+import Templatedata from '../Data1/explorecard.json'// Importing the JSON data
 
-function WeddingTemplateCards({searchQuery}) {
+function HousewarmingTemplateCards({searchQuery}) {
   // Filter the templates array to get only the ones with "Birthday template"
   const filteredTemplates = Templatedata.filter(template => 
-    template.template.toLowerCase().includes("wedding template") &&
+    template.template.includes("House Warming template") &&
     template.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
@@ -15,9 +15,9 @@ function WeddingTemplateCards({searchQuery}) {
         <div className="cardsec"></div>
         <div className="carddisplay">
           <h3 className="cardtitle">{template.name}</h3>
-          <p className="cardprice">₹  {template.Prize}</p>
+          <p className="cardprice">₹ {template.Prize}</p>
           </div>
-          <p className="cardtemplate"> {template.template}</p>
+          <p className="cardtemplate">  {template.template}</p>
           
         </div>
       ))}
@@ -25,4 +25,4 @@ function WeddingTemplateCards({searchQuery}) {
   );
 }
 
-export default WeddingTemplateCards;
+export default HousewarmingTemplateCards;

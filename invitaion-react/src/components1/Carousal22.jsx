@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import { useParams } from "react-router-dom";
-import Templatedata from '../Data/explorecard.json';
+import Templatedata from '../Data1/explorecard.json';
 import './crsl.css'
 
 const CenterMode = () => {

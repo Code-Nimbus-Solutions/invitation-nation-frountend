@@ -1,5 +1,5 @@
 import React from "react";
-import Templatedata from '../Data/explorecard.json'; // Importing the JSON data
+import Templatedata from '../Data1/explorecard.json'; // Importing the JSON data
 
 function AniversaryTemplateCards({ searchQuery }) {
   // Filter the templates array to get only the ones with "Anniversary template" and match the search query

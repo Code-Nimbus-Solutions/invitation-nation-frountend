@@ -1,9 +1,9 @@
 import React from "react";
-import HeroImg from "../assets/hero-section-images/hero-img.png";
-import HeroDecorationLeft from "../assets/hero-section-images/hero-decoration.png";
-import HeroDecorationRight from "../assets/hero-section-images/hero-decoration.png";
-import HeroRightArrow from "../assets/hero-section-images/hero-right-arrow.png";
-import HeroLeftArrow from "../assets/hero-section-images/hero-left-arrow.png";
+import HeroImg from "../assets1/hero-section-images/hero-img.png";
+import HeroDecorationLeft from "../assets1/hero-section-images/hero-decoration.png";
+import HeroDecorationRight from "../assets1/hero-section-images/hero-decoration.png";
+import HeroRightArrow from "../assets1/hero-section-images/hero-right-arrow.png";
+import HeroLeftArrow from "../assets1/hero-section-images/hero-left-arrow.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {

@@ -1,15 +1,15 @@
 import React from "react";
-import Templatedata from '../Data/explorecard.json'// Importing the JSON data
+import Templatedata from '../Data1/explorecard.json'// Importing the JSON data
 
-function BirthdayTemplateCards({searchQuery}) {
+function OndiscountTemplateCards({searchQuery}) {
   // Filter the templates array to get only the ones with "Birthday template"
   const filteredTemplates = Templatedata.filter(template => 
-    template.template.includes("Birthday template") &&
+    template.template.includes("ondiscount template") &&
     template.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
-    <div className="template-cards" style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+    <div className="template-cards " style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
       {filteredTemplates.map((template) => (
         <div className="card" key={template.id} >
         <div className="cardsec"></div>
@@ -17,7 +17,7 @@ function BirthdayTemplateCards({searchQuery}) {
           <h3 className="cardtitle">{template.name}</h3>
           <p className="cardprice"> ₹ {template.Prize}</p>
           </div>
-          <p className="cardtemplate">  {template.template}</p>
+          <p className="cardtemplate">{template.template}</p>
           
         </div>
       ))}
@@ -25,4 +25,4 @@ function BirthdayTemplateCards({searchQuery}) {
   );
 }
 
-export default BirthdayTemplateCards;
+export default OndiscountTemplateCards;

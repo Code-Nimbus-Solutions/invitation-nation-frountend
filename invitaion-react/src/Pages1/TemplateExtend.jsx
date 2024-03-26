@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Templatedata from '../Data/explorecard.json';
-import '../Pages/explore.css' // Importing the JSON data
+import Templatedata from '../Data1/explorecard.json';
+import './explore.css' // Importing the JSON data
 
-import CenterMode from "../components/Carousal22";
-import Pricesection from "../components/Pricesec";
+import CenterMode from "../components1/Carousal22";
+import Pricesection from "../components1/Pricesec";
 
 
 function TemplateDetails() {

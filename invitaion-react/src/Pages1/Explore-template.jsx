@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Tabs from '../components/Extabs';
+import Tabs from '../components1/Extabs';
 import './explore.css';
 
 export default function ExploreTemplate(){

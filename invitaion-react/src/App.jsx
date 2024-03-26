@@ -22,6 +22,9 @@ import Templates from './pages/templates';
 import Chat from './pages/chat';
 import Orders from './pages/orders';
 import Category from './components/Category'
+import ExploreTemplate from './Pages1/Explore-template'
+import TemplateDetails from './Pages1/TemplateExtend'
+import  Homepage1  from './Pages1/Homepage';
 
 
 
@@ -70,6 +73,9 @@ function App() {
           <Route path="/Chat" element={<Chat />} />
           <Route path="/Orders" element={<Orders />} />
           <Route path="/Category" element={<Category />} />
+          <Route path="/homepage" element={<Homepage1/>} />
+          <Route path="/temp" element={<ExploreTemplate />} />
+          <Route path={"/tempdetails/:id"} element={<TemplateDetails />} />
         </Routes>
        
       )}
