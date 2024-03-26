@@ -17,6 +17,12 @@ import { Setting } from './components/pages/Setting/settings';
 import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswrd';
 import { MainCustom } from './components/pages/Templates/MianCustom';
 import Imageupload from './components/pages/Gallery-upld/imageupld';
+import Overview from './pages/Overview'
+import Templates from './pages/templates';
+import Chat from './pages/chat';
+import Orders from './pages/orders';
+import Category from './components/Category'
+
 
 
 
