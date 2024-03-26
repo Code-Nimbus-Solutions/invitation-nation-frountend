@@ -18,6 +18,8 @@ import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswr
 import { MainCustom } from './components/pages/Templates/MianCustom';
 import Imageupload from './components/pages/Gallery-upld/imageupld';
 
+
+
 function App() {
   // State to manage loading state
   const [loading, setLoading] = useState(true);
@@ -57,7 +59,6 @@ function App() {
           <Route path='/Coustomise' element={<MainCustom />} />
           <Route path='/imageupld' element={<Imageupload />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/ForgotPassword" element={<ForgotPassword />} />
           <Route path="/Overview" element={<Overview />} />
           <Route path="/Templates" element={<Templates />} />
           <Route path="/Chat" element={<Chat />} />
