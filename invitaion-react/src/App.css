@@ -1,3 +1,7 @@
+
+body {
+  font-family: "Inter";
+}
 .route {
   position: sticky;
   margin: 0;

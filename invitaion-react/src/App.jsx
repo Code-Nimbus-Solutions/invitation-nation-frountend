@@ -17,6 +17,14 @@ import { Setting } from './components/pages/Setting/settings';
 import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswrd';
 import { MainCustom } from './components/pages/Templates/MianCustom';
 import Imageupload from './components/pages/Gallery-upld/imageupld';
+import Overview from './pages/Overview'
+import Templates from './pages/templates';
+import Chat from './pages/chat';
+import Orders from './pages/orders';
+import Category from './components/Category'
+
+
+
 
 function App() {
   // State to manage loading state
@@ -56,9 +64,18 @@ function App() {
           <Route path='/forgotpass' element={<Forgotpassword />} />
           <Route path='/Coustomise' element={<MainCustom />} />
           <Route path='/imageupld' element={<Imageupload />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/Overview" element={<Overview />} />
+          <Route path="/Templates" element={<Templates />} />
+          <Route path="/Chat" element={<Chat />} />
+          <Route path="/Orders" element={<Orders />} />
+          <Route path="/Category" element={<Category />} />
         </Routes>
        
       )}
+          
+       
+   
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Logindata from '../../Data/Logindata.json';
 import { useNavigate } from 'react-router-dom';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import Logo from '/src/assets/image-removebg-preview (2) 1.svg'
+import Logo from '/src/assets/Component 2 (5).svg'
 
 export function Login() { 
 

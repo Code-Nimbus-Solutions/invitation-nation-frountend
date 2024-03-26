@@ -1,0 +1,19 @@
+.overview-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.main-area-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem;
+  box-sizing: border-box;
+}
