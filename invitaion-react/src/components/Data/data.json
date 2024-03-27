@@ -2,28 +2,31 @@
   "template_id": [
     {
       "Hero Section": {
+        "id": "herosection",
         "Event Date": "date",
         "Location": "text",
         "Map Link": "text",
-        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
+        "Img": "https://6603d4e26f5585696247b3d5--startling-pony-401dc0.netlify.app/"
       }
     },
     {
       "Bride Section": {
+        "id": "bridesection",
         "Bride Image": "file",
         "First Name": "text",
         "Last Name": "text",
         "Daughter Of": "text",
         "Bride Quote": "text",
-        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
+        "Img": "https://6603d4e26f5585696247b3d5--startling-pony-401dc0.netlify.app/"
       }
     },
     {
       "Groom Section": {
+        "id": "groomsection",
         "Son Of": "text",
         "Groom Quote": "text",
         "Upload Groom Image": "file",
-        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
+        "Img": "https://6603d4e26f5585696247b3d5--startling-pony-401dc0.netlify.app/"
       }
     }
   ]
