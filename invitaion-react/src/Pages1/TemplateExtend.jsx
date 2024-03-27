@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Templatedata from '../Data1/explorecard.json';
 import './explore.css' // Importing the JSON data
 
@@ -32,7 +32,9 @@ function TemplateDetails() {
       </div>
       <div className="discriptiontemp">
         <p>{template.description}</p>
-        <button className="get">Get This Template</button>
+        <Link to='/user'> <button className="get">Get This Template</button>
+        </Link>
+       
         <button className="free">Free Preview</button>
       </div>
 

@@ -12,7 +12,7 @@ import { styled } from '@mui/material/styles';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import cardimg from "/src/assets/react.svg"
 
-export default function ImgMediaCard() {
+export default function ImgMediaCard({onUploadMedia}) {
     const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
         height: 10,
         borderRadius: 5,
@@ -73,6 +73,7 @@ export default function ImgMediaCard() {
               },
               fontFamily: "DM Sans"
             }}
+            onClick={onUploadMedia}
           >
             Upload media
           </Button>

@@ -14,16 +14,16 @@ function Tabs({ searchQuery, setSearchQuery }) {
   const [activeTab, setActiveTab] = useState(0);
 
   // Content for each tab
-  const Tabs = ["ALL", "On Discount🎉", "Weddings", "Birthdays", "House Warmings", "Parties", "Anniversary", "Business Events"]
+  const Tabs=["ALL", "On Discount🎉", "Weddings", "Birthdays", "House Warmings", "Parties", "Anniversary" ,"Business Events"];
   const tabContent = [
-    <TemplateCards key={0} searchQuery={searchQuery} />,
-    <OndiscountTemplateCards key={1} searchQuery={searchQuery} />,
-    <WeddingTemplateCards key={2} searchQuery={searchQuery} />,
-    <BirthdayTemplateCards key={3} searchQuery={searchQuery} />,
-    <HousewarmingTemplateCards key={4} searchQuery={searchQuery} />,
-    <PartyTemplateCards key={5} searchQuery={searchQuery} />,
-    <AniversaryTemplateCards key={6} searchQuery={searchQuery} />,
-    <BuisnessTemplateCards key={7} searchQuery={searchQuery} />,
+    <TemplateCards searchQuery={searchQuery}/>,
+    <OndiscountTemplateCards searchQuery={searchQuery}/>,
+    <WeddingTemplateCards searchQuery={searchQuery}/>,
+    <BirthdayTemplateCards searchQuery={searchQuery}/>,
+    <HousewarmingTemplateCards searchQuery={searchQuery}/>,
+    <PartyTemplateCards searchQuery={searchQuery}/>,
+    <AniversaryTemplateCards searchQuery={searchQuery} />,
+    <BuisnessTemplateCards searchQuery={searchQuery}/>,
   ];
 
   // Filter function based on search query

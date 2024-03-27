@@ -1,7 +1,7 @@
 import './App.css';
 import './index.css';
 import '/src/components/dash.css';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router,  Routes, Route, useLocation} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Loader from './components/MUI components/Loader';
 
@@ -54,9 +54,9 @@ function App() {
       {loading ? (
         <div className="loading"><Loader/></div>
       ) : (
-       
+      
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/user' element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dash" element={<Homepage />} />
           <Route path='/templetes' element={<Wishes />} />
@@ -73,7 +73,7 @@ function App() {
           <Route path="/Chat" element={<Chat />} />
           <Route path="/Orders" element={<Orders />} />
           <Route path="/Category" element={<Category />} />
-          <Route path="/homepage" element={<Homepage1/>} />
+          <Route path="/" element={<Homepage1/>} />
           <Route path="/temp" element={<ExploreTemplate />} />
           <Route path={"/tempdetails/:id"} element={<TemplateDetails />} />
         </Routes>

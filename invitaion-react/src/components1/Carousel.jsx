@@ -23,10 +23,10 @@ const Carousel = () => {
   addAnimation();
   return (
     <section id="logo-carousel-section">
-      <div class="nimbus-container">
-        <div class="logo-carousel-container">
-          <div class="scroller" data-direction="left" data-speed="slow">
-            <div class="scroller-inner">
+      <div className="nimbus-container">
+        <div className="logo-carousel-container">
+          <div className="scroller" data-direction="left" data-speed="slow">
+            <div className="scroller-inner">
               <span>Weddings</span>
               <span>Birthdays</span>
               <span>Business Events</span>

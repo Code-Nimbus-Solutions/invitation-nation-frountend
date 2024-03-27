@@ -65,6 +65,9 @@ export default function BasicTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+  const goToAboutCoupleTab = () => {
+    setValue(1); // Change the state value to 1 to navigate to the "About Couple" tab
+  };
 
   React.useEffect(() => {
     // Store the current value in localStorage
@@ -125,7 +128,7 @@ export default function BasicTabs() {
       </Box>
       <Box sx={{ display: 'flex', flexWrap: 'wrap' ,marginBottom:"2rem" }}>
         <CustomTabPanel value={value} index={0} sx={{width:"100%"}}>
-          <ImgMediaCard/>
+          <ImgMediaCard onUploadMedia={goToAboutCoupleTab}/>
         </CustomTabPanel>
       <CustomTabPanel value={value} index={1} className='tempcard1' >
         <Card sx={{ maxWidth: 391, marginLeft: "10px", marginTop: "5%",maxHeight:350 ,flexBasis: "calc(50% -0px)"}}>

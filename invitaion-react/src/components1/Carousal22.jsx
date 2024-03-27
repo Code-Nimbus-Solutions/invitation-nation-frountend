@@ -102,7 +102,7 @@ const CenterMode = () => {
         </div>
         <div onClick={() => handleCardClick(5)}>
           <h3>
-            <img src={template.image3} alt="Slide 6" className="slide" />
+            <img src="/src/assets/hero-section-images/Rectangle 55.svg" alt="Slide 6" className="slide" />
           </h3>
         </div>
       </Slider>

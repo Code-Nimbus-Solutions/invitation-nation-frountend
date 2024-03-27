@@ -48,10 +48,10 @@ export function Customizsec() {
           sections
             .find((section) => Object.keys(section)[0] === selectedSection)[selectedSection].Img && (
             <div className="imgsec">
-              <img
+              <iframe
                 src={sections
                   .find((section) => Object.keys(section)[0] === selectedSection)[selectedSection].Img}
-                alt="Selected Img" className='mainimg'/>
+                alt="Selected Img" className='mainimg' style={{border:"none", overflowX:'hidden'}}/>
             </div>
           )}
 

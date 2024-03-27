@@ -5,7 +5,7 @@
         "Event Date": "date",
         "Location": "text",
         "Map Link": "text",
-        "Img": "/src/assets/Frame 127.svg"
+        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
       }
     },
     {
@@ -15,7 +15,7 @@
         "Last Name": "text",
         "Daughter Of": "text",
         "Bride Quote": "text",
-        "Img": "/src/assets/Frame 159.svg"
+        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
       }
     },
     {
@@ -23,7 +23,7 @@
         "Son Of": "text",
         "Groom Quote": "text",
         "Upload Groom Image": "file",
-        "Img": "/src/assets/Frame 160.svg"
+        "Img": "https://66013bfb071f0694d661a9ce--iridescent-raindrop-03a4cf.netlify.app/"
       }
     }
   ]
