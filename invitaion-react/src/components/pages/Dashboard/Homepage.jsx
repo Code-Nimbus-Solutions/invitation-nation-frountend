@@ -1,5 +1,6 @@
 import BadgeAvatars from "../../MUI components/avatar";
-import "../../../components/dash.css";
+// import "../../../components/dash.css";
+import "./Homepage.css";
 import { Sidebar } from "../../MUI components/sidebar";
 
 import { Websetup } from "../../MUI components/websetupcrd";
@@ -31,12 +32,12 @@ export function Homepage() {
 
     // </div>
     <>
-      <div className="templates-container">
+      <div className="homepage-container">
         <div className="sidebar">
           <Sidebar />
         </div>
         <div className="main-area-box">
-          <div className="top-bar">
+          <div className="nav-bar">
             <Navbar />
           </div>
           <div className="main-area"></div>
