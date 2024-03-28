@@ -1,0 +1,269 @@
+.logcont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 7rem;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    position: relative;
+    left: 0rem;
+
+}
+
+.logtxt {
+    color: #430060;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 14px;
+
+}
+
+.loginput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+
+    /* Optionally set a height for vertical centering */
+}
+
+.logmailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loglab {
+    text-align: left;
+    margin-right: 16px;
+    /* Adjust the margin as needed for spacing */
+}
+
+.logmail {
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+
+}
+
+.mailip {
+    border: #430060 2px solid;
+}
+
+.Logpassword {
+    margin-top: 20px;
+
+}
+
+.forgotpass {
+    color: var(--Bright-purp, #8D4EA5);
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    width: 162px;
+    flex-shrink: 0;
+    justify-content: center;
+    position: absolute;
+    left: 53%;
+    top: 44%;
+}
+
+.login {
+    display: flex;
+    width: 400px;
+    height: 48px;
+    padding: 16px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Bright-purp, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #8D4EA5);
+    position: absolute;
+    top: 65%;
+    left: 38.3%;
+
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Semibold 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+
+.keepsign {
+    position: relative;
+    top: 100%;
+    left: -10%;
+
+}
+
+.keeplogin {
+    position: relative;
+    top: 87%;
+    left: -5%;
+    color: var(--Black, #191D23);
+
+    /* Light 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    width: 20rem;
+    left: -6rem;
+
+    /* 150% */
+
+
+}
+
+.createscc {
+    color: var(--Dark-purp, #36004E);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 10%;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.kkpcont {
+    display: flex;
+    position: relative;
+    top: 7rem;
+    left: -3.5rem;
+
+
+}
+
+.logincreate {
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 12rem;
+}
+
+.mainlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.passwrdreset {
+    position: relative;
+    justify-content: center;
+    left: 5.5rem;
+}
+
+.signupmain {
+    box-sizing: border-box;
+
+}
+
+.loginform {
+    margin: 1rem;
+    scale: 0.95;
+}
+
+.sign {
+    scale: 0.95;
+}
+
+@media(width <31.25rem) {
+    .login {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 10rem;
+        left: 3.5rem;
+    }
+
+    .logmail {
+        position: relative;
+        margin: 2rem;
+        width: 100%;
+    }
+
+    .forgotpass {
+        position: relative;
+        left: 18rem;
+        top: 7.5rem;
+        text-decoration: none;
+    }
+
+    .kkpcont {
+        position: relative;
+        margin-left: 4.5rem;
+        top: 4rem;
+    }
+
+    .logincreate {
+        position: relative;
+        top: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 2rem;
+    }
+
+    .logcont {
+        margin-bottom: 2rem;
+    }
+
+    .forgtmail {
+        position: relative;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        scale: 0.8;
+
+
+    }
+
+    .passwrdreset {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        left: 5rem;
+    }
+
+    .mailip {
+        width: 10rem;
+    }
+
+    .log {
+        scale: 0.9;
+        position: relative;
+        left: -3rem;
+    }
+
+}

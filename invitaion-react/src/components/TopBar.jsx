@@ -2,7 +2,7 @@ import React from "react";
 import "./TopBar.css";
 import DoubleArrowRight from "../assets/TopBarImg/double-arrow-right.svg";
 import NotificationOn from "../assets/TopBarImg/notification-on.svg";
-import Search from "../assets/TopBarImg/search.svg";
+import Search from "../User-Dashboard/assets copy/TopBarImg/search.svg";
 
 const TopBar = () => {
   const userJson = {

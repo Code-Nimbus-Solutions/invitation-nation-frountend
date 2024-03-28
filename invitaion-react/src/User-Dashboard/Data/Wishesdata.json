@@ -1,0 +1,51 @@
+
+
+{
+    "Wishes":[
+        {
+            "side":"groom",
+            "name":"Manju",
+            "wish":"A beautiful bride for my best friend.",
+            "date":"01/27/24",
+            "time":"11:30 AM",
+            "type":"Hide",
+            "Image":"/src/assets/Ellipse 34-1.svg"
+        },
+        {
+            "side":"bride",
+            "name":"sanju",
+            "wish":"A beautiful groom for my best friend.",
+            "date":"01/30/24",
+            "time":"10:30 AM",
+            "type":"Show",
+            "Image":"/src/assets/Ellipse 34-2.svg"
+        },
+        {
+            "side":"groom",
+            "name":"Ranju",
+            "wish":"Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "date":"01/25/24",
+            "time":"12:30 AM",
+            "type":"Show",
+            "Image":"/src/assets/Ellipse 34.svg"
+        },
+        {
+            "side":"bride",
+            "name":"Karan",
+            "wish":"A beautiful bride for my best friend.happ married liife.....",
+            "date":"01/29/24",
+            "time":"09:30 AM",
+            "type":"Show",
+            "Image":"/src/assets/Ellipse 34-1.svg"
+        },
+        {
+            "side":"groom",
+            "name":"Harsha",
+            "wish":"A beautiful bride for my best friend.happ married liife.....Generate CSS Preprocessors SASS/LESS/SCSS/STYLUS from your local Figma styles Easily generate CSS variables and mixins from a defined Figma styles. The plugin ...",
+            "date":"01/31/24",
+            "time":"03:30 PM",
+            "type":"Show",
+            "Image":"/src/assets/Ellipse 34-2.svg"
+        }
+    ]
+}

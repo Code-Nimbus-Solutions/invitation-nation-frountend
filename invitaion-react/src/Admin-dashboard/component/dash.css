@@ -1,0 +1,401 @@
+.side {
+  display: flex;
+  width: 290px;
+  height: 1024px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background: var(--Dark-purp, #36004E);
+}
+
+.dash {
+  color: var(--Light-Purp, #DFD9E2);
+
+  /* Body Text/ Large/ Bold */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 166.667% */
+  letter-spacing: -0.36px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.heading {
+  position: absolute;
+  left: 20%;
+  top: 7%;
+  font-size: larger;
+  font-weight: 600;
+  width: 460px;
+  height: 42px;
+  color: var(--Dark-purp, #36004E);
+
+  /* Display Text/Small/Display Small (Bold) */
+  font-family: DM Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 123.529% */
+  letter-spacing: -0.68px;
+}
+
+.avtar {
+  position: absolute;
+  left: 95%;
+  top: 5%;
+
+}
+
+
+.user {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  font-size: small;
+  font-weight: 200;
+  color: var(--Bright-purp, #8D4EA5);
+
+  /* Body Text/Small/Body Medium (Bold) */
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.28px;
+
+}
+
+.maincard {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 2%;
+  width: 358px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--Dark-purp, #36004E);
+}
+
+.sideweb {
+  display: flex;
+}
+
+.crdhd {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 20px;
+  padding-top: ;
+
+
+}
+
+.percent {
+  color: var(--Bright-purp, #8D4EA5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 35px;
+  padding-top: -10px;
+  padding-bottom: .625rem;
+
+}
+
+.custom {
+  display: inline-flex;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  background: var(--White, #FFF);
+  position: relative;
+  left: 50%;
+  color: var(--Bright-purp, #8D4EA5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+}
+
+.webanalytics {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  width: 358px;
+  height: 293px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--Light-Purp, #DFD9E2);
+}
+
+.crdname {
+  color: var(--Dark-purp, #36004E);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px;
+  width: 172px;
+  height: 26px;
+}
+
+.templatemain {
+  display: flex;
+
+}
+
+.tempcont {
+  display: flex;
+
+}
+
+.temp {
+  margin-left: 5%;
+  color: var(--Dark-purp, #36004E);
+
+  /* Display Text/Small/Display Small (Bold) */
+  font-family: "DM Sans";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 123.529% */
+  letter-spacing: -0.68px;
+  margin-top: -2%;
+
+}
+
+.andretemp {
+  margin-left: 5%;
+  margin-top: 5%;
+  color: var(--Bright-purp, #8D4EA5);
+
+  /* Body Text/Small/Body Medium (Bold) */
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: -0.28px;
+}
+
+.buttn {
+  width: 100%;
+  color: var(--White, #FFF);
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.fourcardmain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 169px;
+  height: 149px;
+  border-radius: 8px;
+  margin-top: 90%;
+  left: -5rem;
+
+
+
+
+}
+
+.fourcrd {
+  display: flex;
+  justify-content: right;
+
+}
+
+.fourcrdcont {
+  width: 169px;
+  height: 149px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+
+
+
+
+}
+
+.addsec {
+  margin: 10px;
+  margin-left: 300%;
+
+}
+
+.addsec2 {
+  margin: 10px;
+  margin-left: 300%;
+
+}
+
+.addsec3 {
+  margin: 10px;
+  margin-left: 300%;
+
+}
+
+.addsec4 {
+  margin: 10px;
+  margin-left: 300%;
+
+}
+
+.wishmIn {
+  display: flex;
+
+
+
+
+}
+
+.wishtxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishcount {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.fourcrd {
+  position: absolute;
+  top: 0rem;
+  left: 55rem;
+}
+
+.crdhd {
+  padding-top: 0.5rem;
+  font-weight: 800;
+}
+
+.percent {
+  margin-top: -1rem;
+}
+.websetup{
+  position: relative;
+  margin-left: 22rem;
+  margin-top: 12rem;
+}
+
+@media (width < 600px) {
+  .fourcardmain {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourcrd {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addsec,
+  .addsec2,
+  .addsec3,
+  .addsec4 {
+    margin-left: 0;
+    /* Reset the left margin */
+    margin-top: 10px;
+    /* Add some top margin for spacing */
+  }
+
+  .avtar {
+    position: relative;
+    left: 30rem;
+
+  }
+
+  .desktopdash {
+    display: none;
+  }
+
+  .bottomnav {
+    position: fixed;
+    bottom: 0;
+
+  }
+
+  .websetup {
+    justify-content: center;
+    margin: 1rem;
+
+
+  }
+
+  .websetup {
+    position: relative;
+    left: -0.5rem;
+    width: 100%;
+    margin: 1rem;
+
+  }
+
+  .tempcardimg {
+    width: 80vw;
+  }
+
+  .crdhd {
+    padding-top: 1rem;
+  }
+
+  .percent {
+    padding-top: -2rem;
+  }
+
+  .maincard {
+    height: 12rem;
+  }
+
+  .custom {
+    margin-top: 1rem;
+    height: 2.5rem;
+
+
+  }
+
+  .custom1 {
+    width: 12rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+
+
+
+
+}
+
+/*App.css*/

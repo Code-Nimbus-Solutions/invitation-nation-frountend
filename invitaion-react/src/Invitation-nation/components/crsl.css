@@ -1,0 +1,148 @@
+.container {
+  margin: 0 auto;
+  padding: 0px 40px 40px 40px;
+  max-width: 100%;
+  position: relative;
+}
+
+
+
+.slideimg {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+
+}
+
+.buttoncontainer {
+
+  float: right;
+  padding-right: 10rem;
+  z-index: 99999;
+
+}
+
+.next {
+  margin-right: 10rem;
+
+}
+
+.slick-next {
+
+  right: 20px;
+  z-index: 9999;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  z-index: 9999;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+}
+
+.center .slick-center .slideimg {
+  border: 2px solid #e67e22;
+}
+
+.center h3 {
+  transition: all .10s ease;
+}
+
+
+/*  Price Section */
+
+.mainpricecontainer {
+  background-color: #36004E;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  flex-direction: column;
+
+}
+
+.card1 {
+  background-color: #f8f9fa;
+
+  height: 70%;
+  padding: 3rem;
+  border-radius: 1rem;
+  margin: 5rem;
+}
+
+.mainsubcontaine {
+  display: flex;
+  justify-content: center;
+
+}
+.pricemain{
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+
+.point {
+  font-size: 15px;
+  width: 100%;
+  padding: 0.2rem;
+  font-weight: 700;
+  color: #36004E;
+}
+@media(width<600px)
+{
+  .mainsubcontaine{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* Tab responsiveness  */
+
+.dropdown-menu{
+  display: none;
+}
+
+@media(width<600px){
+  .tab-buttons{
+    display: none;
+
+  }
+  .dropdown-menu{
+    display: block;
+    padding: 2rem;
+    width:70%;
+  
+   
+  }
+  .dropdown-menu button{
+    padding: 0.5rem;
+    font-size: 20px;
+    border: #36004E 1px solid;
+    border-radius: 1rem;
+    width: 50%;
+  }
+  
+  .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+  }
+
+  .dropdown-content button{
+    font-size: 15px;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+}
+
+@media(width<600px){
+ 
+}

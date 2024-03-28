@@ -1,0 +1,132 @@
+.sidebar-container {
+  background: var(--Default-Black, #191919);
+  height: 100vh;
+  padding: 4.8rem 2.8rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.side-bar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.side-bar-nav h3 {
+  color: var(--White, #fff);
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.side-bar-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.side-bar-nav-element {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.side-bar-nav-element.active {
+  border-radius: 4px;
+  background: var(
+    --Bright-purp,
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    #8d4ea5
+  );
+}
+
+.side-bar-nav-element span {
+  color: var(--Special-BG2, rgba(255, 255, 255, 0.7));
+  font-family: Inter;
+  font-size: 1.6rem;
+}
+
+.side-bar-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.side-bar-user-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.side-bar-logout {
+  border-radius: 4px;
+  opacity: 0.75;
+  background: var(--Special-BG3, rgba(255, 255, 255, 0.08));
+  padding: 1rem;
+  align-items: center;
+}
+
+.side-bar-logout-element {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.side-bar-logout span {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.side-bar-user {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-bar-user-img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.side-bar-user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.side-bar-user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-bar-user-name h3 {
+  color: var(--White, #fff);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.side-bar-user-name span {
+  color: var(--Special-BG2, rgba(255, 255, 255, 0.7));
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.side-bar-more-details {
+  width: 0.4rem;
+  height: 2rem;
+}
+
+.side-bar-more-details img {
+  width: 100%;
+  height: 100%;
+}

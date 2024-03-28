@@ -7,25 +7,26 @@ import { useState, useEffect } from 'react';
 import Loader from './components/MUI components/Loader';
 
 // Import all your components
-import { Login } from './components/pages/loginsignup page/Login';
-import { Signup } from './components/pages/loginsignup page/Signup';
-import { Homepage } from './components/pages/Dashboard/Homepage';
-import { Templetes } from './components/pages/Wishes/template';
-import { Wishes } from './components/pages/Templates/wishes';
-import { Gallery } from './components/gallery';
-import { Help } from './components/pages/Help/help';
-import { Setting } from './components/pages/Setting/settings';
-import { Forgotpassword } from './components/pages/loginsignup page/Forgotpasswrd';
-import { MainCustom } from './components/pages/Templates/MianCustom';
-import Imageupload from './components/pages/Gallery-upld/imageupld';
-import Overview from './pages/Overview';
-import Templates from './pages/templates';
-import Chat from './pages/chat';
-import Orders from './pages/orders';
-import Category from './components/Category';
-import ExploreTemplate from './Pages1/Explore-template';
-import TemplateDetails from './Pages1/TemplateExtend';
-import Homepage1 from './Pages1/Homepage';
+import { Login } from './User-Dashboard/pages/loginsignup page/Login';
+import { Signup } from './User-Dashboard/pages/loginsignup page/Signup';
+import { Homepage } from './User-Dashboard/pages/Dashboard/Homepage';
+import { Templetes } from './User-Dashboard/pages/Wishes/template';
+import { Wishes } from './User-Dashboard/pages/Templates/wishes';
+import { Gallery } from './User-Dashboard/MUI components/gallery';
+import { Help } from './User-Dashboard/pages/Help/help';
+import { Setting } from './User-Dashboard/pages/Setting/settings';
+import { Forgotpassword } from './User-Dashboard/pages/loginsignup page/Forgotpasswrd';
+import { MainCustom } from './User-Dashboard/pages/Templates/MianCustom';
+import Imageupload from './User-Dashboard/pages/Gallery-upld/imageupld';
+import Overview from './Admin-dashboard/pages/Overview';
+import Templates from './Admin-dashboard/pages/templates';
+import Chat from './Admin-dashboard/pages/chat';
+import Orders from './Admin-dashboard/pages/Orders';
+import Category from './Admin-dashboard/component/Category';
+import ExploreTemplate from './Invitation-nation/Pages1/Explore-template';
+import TemplateDetails from './Invitation-nation/Pages1/TemplateExtend';
+import Homepage1 from './Invitation-nation/Pages1/Homepage';
+import NotFound from './User-Dashboard/MUI components/Errorpage';
 
 function App() {
   // State to manage loading state
@@ -71,6 +72,7 @@ function App() {
             <Route path="/" element={<Homepage1 />} />
             <Route path="/temp" element={<ExploreTemplate />} />
             <Route path="/tempdetails/:id" element={<TemplateDetails />} />
+            <Route path='*' element={<NotFound/>} />
           </Routes>
         </Router>
       )}

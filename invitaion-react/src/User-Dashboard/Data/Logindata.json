@@ -1,0 +1,26 @@
+{
+    "Login_id":[
+        {
+                 "id":"Auth01",
+                 "name":"Harsha",
+                 "Email":"Harsha@gmail.com",
+                 "Password":"codenimbus123"
+
+        },
+        {
+            "id":"Auth02",
+            "name":"Pranav",
+            "Email":"pranav123@gmail.com",
+            "Password":"codenimbus345"
+
+        },
+        {
+            "id":"Auth03",
+            "name":"harish",
+            "Email":"harish356@gmail.com",
+            "Password":"codenimbus567"
+
+        }
+   
+    ]
+}
