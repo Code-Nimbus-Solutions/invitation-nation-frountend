@@ -1,0 +1,94 @@
+
+[
+    {
+        "id": 1,
+        "name": "Pink Lilly",
+        "Prize": 4999,
+        "template": "wedding template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat34 the start",
+        "image1":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image2":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image3":"/src/assets/hero-section-images/Rectangle 55.svg"
+    },
+    {
+        "id": 2,
+        "name": "Blue Sky",
+        "Prize": 5999,
+        "template": "Buisness template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat34 hello",
+        "image1":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image2":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image3":"/src/assets/hero-section-images/Rectangle 55.svg"
+    },
+    {
+        "id": 3,
+        "name": "Green Forest",
+        "Prize": 3999,
+        "template": "Birthday template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos",
+        "image1":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image2":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image3":"/src/assets/hero-section-images/Rectangle 55.svg"
+    },
+    {
+        "id": 4,
+        "name": "Red Rose",
+        "Prize": 4599,
+        "template": "House Warming template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat",
+        "image1":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image2":"/src/assets/hero-section-images/Rectangle 55.svg"
+    },
+    {
+        "id": 5,
+        "name": "Golden Sun",
+        "Prize": 6599,
+        "template": "Party template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat1",
+        "image1":"/src/assets/hero-section-images/Rectangle 55.svg",
+        "image2":"/src/assets/hero-section-images/Rectangle 55.svg"
+    },
+    {
+        "id": 6,
+        "name": "Purple Dream",
+        "Prize": 5399,
+        "template": "aniversary template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat34"
+    },
+    {
+        "id": 7,
+        "name": "Silver Moon",
+        "Prize": 4799,
+        "template": "Buisness template",
+        
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat32"
+    },
+    {
+        "id": 8,
+        "name": "Orange Sunset",
+        "Prize": 4099,
+        "template": "Party template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat345"
+    },
+    {
+        "id": 9,
+        "name": "Yellow Star",
+        "Prize": 3699,
+        "template": "wedding template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat34545"
+    },
+    {
+        "id": 10,
+        "name": "White Snow",
+        "Prize": 4499,
+        "template": "aniversary template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat341010"
+    },
+    {
+        "id": 11,
+        "name": "White tiger",
+        "Prize": 4499,
+        "template": "ondiscount template",
+        "description":"Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mat34 the end"
+    }
+]

@@ -1,0 +1,62 @@
+.welcomhdng p {
+    color: var(--Bright-purp, #8D4EA5);
+
+    /* Body Text/Small/Body Medium (Bold) */
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: -0.28px;
+    margin-left: 2rem;
+
+}
+
+.welcomhdng h2 {
+    color: var(--Dark-purp, #36004E);
+
+    /* Display Text/Small/Display Small (Bold) */
+    font-family: "DM Sans";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.529% */
+    letter-spacing: -0.68px;
+    margin-left: 2rem;
+}
+.welcomhdng{
+    margin-left: 18.1rem;
+    background-color: #ffffff;
+    height: 8rem;
+    width: 120%;
+    position: fixed;
+}
+.wishavtar{
+    float: right;
+    margin-top: 3rem;
+    position: relative;
+    left: 90rem;
+    position: fixed;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM sans';
+}
+.templatemain{
+    margin: 0;
+    width: 100%;
+}
+.wishside{
+    position: fixed;
+}
+
+@media(width<600px){
+.welcomhdng{
+    display: none;
+}
+
+}

@@ -1,0 +1,53 @@
+.signup {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8%;
+    align-items: center;
+
+
+}
+
+.signtxt {
+    color: #430060;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+
+
+    line-height: normal;
+
+
+
+}
+
+.signupbutton {
+    display: flex;
+    width: 400px;
+    height: 48px;
+    padding: 16px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Bright-purp, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #8D4EA5);
+    color: #FFF;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Semibold 16-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+.loginform{
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

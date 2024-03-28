@@ -1,0 +1,109 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* .logo-box-img {
+  width: 25%;
+  height: 25%;
+} */
+
+.logo-box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-box span {
+  color: #430060;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.form-subcontainer,
+.form-subcontainer-2,
+.form-subcontainer-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-label {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.form-input {
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0.1rem rgba(75, 87, 104, 0.9);
+  width: fit-content;
+}
+
+.form-input:active,
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.1rem rgba(141, 78, 165, 0.9);
+  border: none;
+}
+
+.form-label-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-forgot-password {
+  color: var(--Bright-purp, #8d4ea5);
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-password-box {
+  position: relative;
+}
+
+.form-password-icon {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding-right: 1rem;
+}
+
+.form-submit {
+  padding: 1.6rem 1.2rem;
+  border-radius: 4px;
+  background: var(
+    --Bright-purp,
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    #8d4ea5
+  );
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

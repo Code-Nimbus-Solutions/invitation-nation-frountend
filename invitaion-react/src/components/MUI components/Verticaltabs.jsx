@@ -3,13 +3,13 @@ import '../css files/vtabs.css' // Import your CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AccountDetails } from '../Vtabs files/Accountdetails';
 import { Link } from 'react-router-dom';
-import contact from "/src/assets/Component 2.svg"
-import likedtemplate from "/src/assets/Component 2 (1).svg"
-import order from "/src/assets/Component 2 (2).svg"
-import report from "/src/assets/Component 2 (3).svg"
-import faq from "/src/assets/Component 2 (3).svg"
-import help from "/src/assets/Component 2 (4).svg"
-import logout from "/src/assets/Component 2 (5).svg"
+import contact from "../../User-Dashboard/assets copy/component 2.svg"
+import likedtemplate from "../../User-Dashboard/assets copy/Component 2 (1).svg"
+import order from "../../User-Dashboard/assets copy/Component 2 (2).svg"
+import report from "../../User-Dashboard/assets copy/Component 2 (3).svg"
+import faq from "../../User-Dashboard/assets copy/Component 2 (3).svg"
+import help from "../../User-Dashboard/assets copy/Component 2 (4).svg"
+import logout from "../../User-Dashboard/assets copy/Component 2 (5).svg"
 
 
 const VerticalTabs = () => {
